@@ -1,0 +1,10 @@
+{
+    "message_payload": {
+        "messages": [
+            {
+                "content": "/explain [customer.py](<file-customer.py>)",
+                "role": "USER"
+            }
+        ]
+    }
+}

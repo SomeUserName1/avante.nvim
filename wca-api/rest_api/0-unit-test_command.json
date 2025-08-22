@@ -1,0 +1,10 @@
+{
+    "message_payload": {
+        "messages": [
+            {
+                "content": "/unit-test [customer.py](<file-customer.py>)",
+                "role": "USER"
+            }
+        ]
+    }
+}

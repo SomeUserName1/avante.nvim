@@ -1,0 +1,10 @@
+{
+    "message_payload": {
+        "messages": [
+            {
+                "content": "Hi",
+                "role": "USER"
+            }
+        ]
+    }
+}

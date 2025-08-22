@@ -111,21 +111,140 @@ end
 
 M.parse_response_without_stream = parse_response_wo_stream
 
--- Needs to be language specific for each function and methods.
+-- Enhanced function to extract method/function names for different languages
+-- Based on actual TreeSitter node types from nvim-treesitter queries
 local get_function_name_under_cursor = function()
+  if not ts_utils.get_node_at_cursor then return "" end
+  
   local current_node = ts_utils.get_node_at_cursor()
   if not current_node then return "" end
+  
   local expr = current_node
+  
+  -- Language-specific function/method node types (from TreeSitter query analysis)
+  local function_types = {
+    -- Python
+    "function_definition",           -- def function_name():
+    
+    -- Java  
+    "method_declaration",            -- public void methodName()
+    
+    -- C/C++
+    "function_declarator",           -- int function_name() / void Class::method()
+    
+    -- Bash/Shell
+    "function_definition",           -- function_name() { } or function function_name() { }
+    
+    -- Perl
+    "subroutine_declaration_statement", -- sub subroutine_name { }
+    "method_declaration_statement",     -- method method_name { }
+    
+    -- Additional common types for broader compatibility
+    "function_declaration",          -- Some C variants
+    "function",                      -- Lua, some JavaScript
+    "method_definition",             -- Ruby and others
+    "function_item",                 -- Rust
+    "procedure_definition",          -- SQL and others
+  }
 
+  -- Walk up the tree to find a function/method node
   while expr do
-    if expr:type() == "function_definition" or expr:type() == "method_declaration" then break end
+    local node_type = expr:type()
+    
+    for _, func_type in ipairs(function_types) do
+      if node_type == func_type then
+        -- Language-specific name extraction strategies
+        return extract_function_name_from_node(expr, node_type)
+      end
+    end
     expr = expr:parent()
   end
 
-  if not expr then return "" end
+  return ""
+end
 
-  local result = (ts_utils.get_node_text(expr:child(1)))[1]
-  return result
+-- Helper function to extract function name based on node type and language conventions
+local function extract_function_name_from_node(node, node_type)
+  if not node then return "" end
+  
+  -- Strategy 1: Look for 'name' field (most common)
+  local name_field = node:field("name")
+  if name_field and #name_field > 0 then
+    local name_text = ts_utils.get_node_text(name_field[1])
+    if name_text and type(name_text) == "string" and name_text ~= "" then
+      return name_text
+    elseif name_text and type(name_text) == "table" and name_text[1] then
+      return name_text[1]
+    end
+  end
+  
+  -- Strategy 2: Language-specific child node analysis
+  for i = 0, node:child_count() - 1 do
+    local child = node:child(i)
+    if child then
+      local child_type = child:type()
+      
+      -- Common identifier types that contain function names
+      local name_types = {
+        "identifier",      -- Most languages
+        "word",           -- Bash functions
+        "bareword",       -- Perl subroutines
+        "field_identifier", -- C++ methods
+      }
+      
+      for _, name_type in ipairs(name_types) do
+        if child_type == name_type then
+          local name_text = ts_utils.get_node_text(child)
+          if name_text and type(name_text) == "string" and name_text ~= "" then
+            return name_text
+          elseif name_text and type(name_text) == "table" and name_text[1] then
+            return name_text[1]
+          end
+        end
+      end
+      
+      -- Special case: C++ qualified identifiers (Class::method)
+      if child_type == "qualified_identifier" then
+        -- Look for the last identifier in the qualified name
+        local last_identifier = find_last_identifier(child)
+        if last_identifier and last_identifier ~= "" then
+          return last_identifier
+        end
+      end
+    end
+  end
+  
+  return ""
+end
+
+-- Helper function to find the last identifier in qualified names (e.g., Class::method -> method)
+local function find_last_identifier(node)
+  if not node then return "" end
+  
+  local name_field = node:field("name")
+  if name_field and #name_field > 0 then
+    local name_text = ts_utils.get_node_text(name_field[1])
+    if name_text and type(name_text) == "string" then
+      return name_text
+    elseif name_text and type(name_text) == "table" and name_text[1] then
+      return name_text[1]
+    end
+  end
+  
+  -- Fallback: look for identifier children
+  for i = node:child_count() - 1, 0, -1 do -- Search backwards to get the last one
+    local child = node:child(i)
+    if child and child:type() == "identifier" then
+      local name_text = ts_utils.get_node_text(child)
+      if name_text and type(name_text) == "string" then
+        return name_text
+      elseif name_text and type(name_text) == "table" and name_text[1] then
+        return name_text[1]
+      end
+    end
+  end
+  
+  return ""
 end
 
 --- It takes in the provider options as the first argument, followed by code_opts retrieved from given buffer.
@@ -143,13 +262,17 @@ M.method_command = function(command_name)
   local current_buffer = vim.api.nvim_get_current_buf()
   local file_path = vim.api.nvim_buf_get_name(current_buffer)
 
-  -- Use file name for now. For proper extraction of method names, a lang specific TreeSitter querry is need
-  -- local method_name = get_function_name_under_cursor()
-  -- use whole file if we cannot get the method
-  local method_name = ""
-  if method_name == "" then
-    local path_splits = vim.split(file_path, "/")
-    method_name = path_splits[#path_splits]
+  -- Extract method name under cursor, fallback to file name
+  local method_name = get_function_name_under_cursor()
+  local path_splits = vim.split(file_path, "/")
+  local filename = path_splits[#path_splits]
+  
+  -- If we have a specific method, use it; otherwise use the whole file
+  local target_reference = ""
+  if method_name and method_name ~= "" then
+    target_reference = method_name
+  else
+    target_reference = filename
   end
 
   local sidebar = require("avante").get()
@@ -162,7 +285,8 @@ M.method_command = function(command_name)
 
   local response_content = ""
   local provider = P[Config.provider]
-  local content = "/" .. command_name .. " @" .. method_name
+  -- Format according to WCA API specification: /command [filename](<file-filename>)
+  local content = "/" .. command_name .. " [" .. target_reference .. "](<file-" .. filename .. ">)"
   Llm.curl({
     provider = provider,
     prompt_opts = {
@@ -254,6 +378,7 @@ M.parse_curl_args = function(provider, code_opts)
   }
 
   -- Create the message_payload structure as required by WCA API
+  -- For WCA commands, only include the command, not file content
   local message_payload = {
     message_payload = {
       chat_session_id = uuid(), -- Required for granite-3-8b-instruct model
@@ -265,10 +390,26 @@ M.parse_curl_args = function(provider, code_opts)
   local json_content = vim.json.encode(message_payload)
   local encoded_json_content = vim.base64.encode(json_content)
 
-  -- Return form data structure - the message field contains the base64-encoded JSON
+  -- Prepare body with message field
   local body = {
     message = encoded_json_content,
   }
+
+  -- Handle files separately as required by WCA API
+  -- Files should be sent as base64-encoded content in 'files' field
+  if code_opts.selected_files and #code_opts.selected_files > 0 then
+    local files_content = ""
+    for _, file in ipairs(code_opts.selected_files) do
+      if file.content then
+        -- Base64 encode the file content as required by WCA API
+        files_content = files_content .. vim.base64.encode(file.content)
+      end
+    end
+    
+    if files_content ~= "" then
+      body.files = files_content
+    end
+  end
 
   return {
     url = base.endpoint,

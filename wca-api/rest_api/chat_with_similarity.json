@@ -1,0 +1,10 @@
+{
+    "message_payload": {
+        "messages": [
+            {
+                "content": "Write the following python code with correct indentation:def init(self, tool): assert not Forwarder._instance self._tool = tool self._initialized_devices = set() self._device_to_host_port_map = dict() self._host_to_device_port_map = dict() self._host_forwarder_path = os.path.join( constants.GetOutDirectory(), 'host_forwarder') assert os.path.exists(self._host_forwarder_path), 'Please build forwarder2' self._device_forwarder_path_on_host = os.path.join( constants.GetOutDirectory(), 'forwarder_dist') self._InitHostLocked()",
+                "role": "USER"
+            }
+        ]
+    }
+}

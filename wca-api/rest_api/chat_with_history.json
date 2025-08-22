@@ -1,0 +1,18 @@
+{
+    "message_payload": {
+        "messages": [
+            {
+                "content": "Please write quicksort in Java",
+                "role": "USER"
+            },
+            {
+                "content": "\n```java\n// Assisted by WCA@IBM\n// Latest GenAI contribution: ibm/granite-20b-code-instruct-v2\npublic class QuickSort {\n    public static void main(String[] args) {\n        int[] arr = { 10, 7, 8, 9, 1, 5 };\n        quickSort(arr, 0, arr.length - 1);\n        for (int i : arr) {\n            System.out.print(i + \" \");\n        }\n    }\n\n    public static void quickSort(int[] arr, int low, int high) {\n        if (low < high) {\n            int pi = partition(arr, low, high);\n            quickSort(arr, low, pi - 1);\n            quickSort(arr, pi + 1, high);\n        }\n    }\n\n    public static int partition(int[] arr, int low, int high) {\n        int pivot = arr[high];\n        int i = low - 1;\n        for (int j = low; j <= high - 1; j++) {\n            if (arr[j] <= pivot) {\n                i++;\n                int temp = arr[i];\n                arr[i] = arr[j];\n                arr[j] = temp;\n            }\n        }\n        int temp = arr[i + 1];\n        arr[i + 1] = arr[high];\n        arr[high] = temp;\n        return i + 1;\n    }\n}\n```",
+                "role": "ASSISTANT"
+            },
+            {
+                "content": "Give unit-test for the above code",
+                "role": "USER"
+            }
+        ]
+    }
+}

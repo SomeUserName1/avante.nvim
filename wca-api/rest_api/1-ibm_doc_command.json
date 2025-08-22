@@ -1,0 +1,10 @@
+{
+    "message_payload": {
+        "messages": [
+            {
+                "content": "/docs Whats the syntax for creating a model definition with the specified payload in IBM Cloud Pak for Data",
+                "role": "USER"
+            }
+        ]
+    }
+}

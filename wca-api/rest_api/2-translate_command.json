@@ -1,0 +1,10 @@
+{
+    "message_payload": {
+        "messages": [
+            {
+                "content": "/translate to java [customer.py](<file-customer.py>)",
+                "role": "USER"
+            }
+        ]
+    }
+}

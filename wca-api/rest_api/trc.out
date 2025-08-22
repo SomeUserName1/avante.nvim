@@ -1,0 +1,941 @@
+== Info: Host api.dataplatform.cloud.ibm.com:443 was resolved.
+== Info: IPv6: 2606:4700:10::ac42:81b0, 2606:4700:10::6814:c27
+== Info: IPv4: 104.20.12.39, 172.66.129.176
+== Info:   Trying [2606:4700:10::ac42:81b0]:443...
+== Info: Connected to api.dataplatform.cloud.ibm.com (2606:4700:10::ac42:81b0) port 443
+== Info: ALPN: curl offers h2,http/1.1
+=> Send SSL data, 5 bytes (0x5)
+0000: 16 03 01 02 00                                  .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: 01 00 01 fc 03 03 dd 1f 6c 3a 24 7c 3d 73 89 a6 ........l:$|=s..
+0010: f1 fc 42 d0 4f 48 1f b1 2a f7 27 aa ce c2 dd 08 ..B.OH..*.'.....
+0020: a6 ef 85 ef 16 59 20 86 0e 51 75 95 dd 03 d0 c6 .....Y ..Qu.....
+0030: 69 91 90 4a 15 9c c0 b9 79 45 12 af 01 b0 a5 15 i..J....yE......
+0040: 01 fb a5 eb 61 32 10 00 48 13 02 13 03 13 01 13 ....a2..H.......
+0050: 04 c0 2c c0 30 cc a9 cc a8 c0 ad c0 2b c0 2f c0 ..,.0.......+./.
+0060: ac c0 23 c0 27 c0 0a c0 14 c0 09 c0 13 00 9d c0 ..#.'...........
+0070: 9d 00 9c c0 9c 00 3d 00 3c 00 35 00 2f 00 9f cc ......=.<.5./...
+0080: aa c0 9f 00 9e c0 9e 00 6b 00 67 00 39 00 33 00 ........k.g.9.3.
+0090: ff 01 00 01 6b 00 00 00 23 00 21 00 00 1e 61 70 ....k...#.!...ap
+00a0: 69 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 i.dataplatform.c
+00b0: 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 00 0b 00 04 loud.ibm.com....
+00c0: 03 00 01 02 00 0a 00 16 00 14 00 1d 00 17 00 1e ................
+00d0: 00 19 00 18 01 00 01 01 01 02 01 03 01 04 00 10 ................
+00e0: 00 0e 00 0c 02 68 32 08 68 74 74 70 2f 31 2e 31 .....h2.http/1.1
+00f0: 00 16 00 00 00 17 00 00 00 31 00 00 00 0d 00 22 .........1....."
+0100: 00 20 04 03 05 03 06 03 08 07 08 08 08 09 08 0a . ..............
+0110: 08 0b 08 04 08 05 08 06 04 01 05 01 06 01 03 03 ................
+0120: 03 01 00 2b 00 05 04 03 04 03 03 00 2d 00 02 01 ...+........-...
+0130: 01 00 33 00 26 00 24 00 1d 00 20 3b f1 7d cc d7 ..3.&.$... ;.}..
+0140: 11 e9 f0 0d 04 65 5b ff 48 9f 2c 94 d4 83 bf 82 .....e[.H.,.....
+0150: 12 58 4f 47 80 10 5e 60 12 17 73 00 1b 00 03 02 .XOG..^`..s.....
+0160: 00 01 00 15 00 9a 00 00 00 00 00 00 00 00 00 00 ................
+0170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+01a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+01b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+01c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+01d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+01e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+01f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+== Info:  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+== Info:  CApath: none
+<= Recv SSL data, 5 bytes (0x5)
+0000: 16 03 03 00 7a                                  ....z
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 122 bytes (0x7a)
+0000: 02 00 00 76 03 03 4a 88 d5 5c 1b da ec b9 24 2e ...v..J..\....$.
+0010: 77 07 86 b8 e6 86 92 ed ad 80 d7 5c 97 8e 6d c0 w..........\..m.
+0020: 89 6b a8 28 02 16 20 86 0e 51 75 95 dd 03 d0 c6 .k.(.. ..Qu.....
+0030: 69 91 90 4a 15 9c c0 b9 79 45 12 af 01 b0 a5 15 i..J....yE......
+0040: 01 fb a5 eb 61 32 10 13 02 00 00 2e 00 33 00 24 ....a2.......3.$
+0050: 00 1d 00 20 49 e7 aa e4 10 d0 e8 1e d7 d7 f4 57 ... I..........W
+0060: e9 be 3d 33 72 bb a2 a9 27 49 42 90 1f 4f d3 ba ..=3r...'IB..O..
+0070: 63 42 ba 4e 00 2b 00 02 03 04                   cB.N.+....
+<= Recv SSL data, 5 bytes (0x5)
+0000: 14 03 03 00 01                                  .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 10 83                                  .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: 16                                              .
+== Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+<= Recv SSL data, 19 bytes (0x13)
+0000: 08 00 00 0f 00 0d 00 00 00 00 00 10 00 05 00 03 ................
+0010: 02 68 32                                        .h2
+== Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 3875 bytes (0xf23)
+0000: 0b 00 0f 1f 00 00 0f 1b 00 0a 19 30 82 0a 15 30 ...........0...0
+0010: 82 08 fd a0 03 02 01 02 02 10 06 f0 aa f2 a1 6e ...............n
+0020: de 2a 06 93 b9 b4 75 ce c4 b8 30 0d 06 09 2a 86 .*....u...0...*.
+0030: 48 86 f7 0d 01 01 0b 05 00 30 59 31 0b 30 09 06 H........0Y1.0..
+0040: 03 55 04 06 13 02 55 53 31 15 30 13 06 03 55 04 .U....US1.0...U.
+0050: 0a 13 0c 44 69 67 69 43 65 72 74 20 49 6e 63 31 ...DigiCert Inc1
+0060: 33 30 31 06 03 55 04 03 13 2a 44 69 67 69 43 65 301..U...*DigiCe
+0070: 72 74 20 47 6c 6f 62 61 6c 20 47 32 20 54 4c 53 rt Global G2 TLS
+0080: 20 52 53 41 20 53 48 41 32 35 36 20 32 30 32 30  RSA SHA256 2020
+0090: 20 43 41 31 30 1e 17 0d 32 34 30 36 30 36 30 30  CA10...24060600
+00a0: 30 30 30 30 5a 17 0d 32 35 30 37 30 37 32 33 35 0000Z..250707235
+00b0: 39 35 39 5a 30 81 8c 31 0b 30 09 06 03 55 04 06 959Z0..1.0...U..
+00c0: 13 02 55 53 31 11 30 0f 06 03 55 04 08 13 08 4e ..US1.0...U....N
+00d0: 65 77 20 59 6f 72 6b 31 0f 30 0d 06 03 55 04 07 ew York1.0...U..
+00e0: 13 06 41 72 6d 6f 6e 6b 31 34 30 32 06 03 55 04 ..Armonk1402..U.
+00f0: 0a 13 2b 49 6e 74 65 72 6e 61 74 69 6f 6e 61 6c ..+International
+0100: 20 42 75 73 69 6e 65 73 73 20 4d 61 63 68 69 6e  Business Machin
+0110: 65 73 20 43 6f 72 70 6f 72 61 74 69 6f 6e 31 23 es Corporation1#
+0120: 30 21 06 03 55 04 03 13 1a 64 61 74 61 70 6c 61 0!..U....datapla
+0130: 74 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 6d 2e tform.cloud.ibm.
+0140: 63 6f 6d 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 com0.."0...*.H..
+0150: 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 ...........0....
+0160: 82 01 01 00 c0 c3 45 6c b8 17 05 10 2b 6d 6f 48 ......El....+moH
+0170: 8b 23 73 9d c8 ba 7c 66 ed 54 2a 9f e8 f2 a4 20 .#s...|f.T*.... 
+0180: 74 b9 32 99 5a bc f8 c2 93 2e fb 96 f6 3b 4b 63 t.2.Z........;Kc
+0190: 55 b8 81 3d 73 7a 58 8f 65 35 c1 1c 41 2d 90 ed U..=szX.e5..A-..
+01a0: 85 ab 57 08 d7 82 3f a0 0e 0f db 3c 3a 01 91 fc ..W...?....<:...
+01b0: 1f 01 b3 27 2c 02 c3 48 13 73 85 70 e6 c3 90 61 ...',..H.s.p...a
+01c0: 8d 74 87 68 05 6f 76 02 5b da 7f 63 30 1c 04 64 .t.h.ov.[..c0..d
+01d0: 18 f3 5c d7 b4 cf 40 0d 5f 61 b3 d1 1f a6 6b 42 ..\...@._a....kB
+01e0: 58 9c d3 6e 64 44 ce f0 e5 48 72 1a 7b ca f6 e0 X..ndD...Hr.{...
+01f0: f7 28 ae 53 e3 1e 20 4a ee d5 c3 fe 43 a4 d8 ef .(.S.. J....C...
+0200: a3 3e 3a 9c df 1f 3d e3 f1 25 ac 1c 7b a0 35 01 .>:...=..%..{.5.
+0210: 09 ca 51 82 d7 9b 49 de 9e ad d3 97 a3 78 a9 22 ..Q...I......x."
+0220: fb c2 3a d5 34 99 5d e1 16 ba eb 61 51 91 3e 54 ..:.4.]....aQ.>T
+0230: 14 19 3d 05 95 78 de 46 22 1a cd 94 08 0a 3c 74 ..=..x.F".....<t
+0240: 35 54 34 ef 58 c3 45 9e 8e d3 f2 88 36 36 0b ea 5T4.X.E.....66..
+0250: e0 b0 23 42 2f ec c3 be ee dd ef 24 2f 3a 90 ee ..#B/......$/:..
+0260: 22 18 ce cd 02 03 01 00 01 a3 82 06 a3 30 82 06 "............0..
+0270: 9f 30 1f 06 03 55 1d 23 04 18 30 16 80 14 74 85 .0...U.#..0...t.
+0280: 80 c0 66 c7 df 37 de cf bd 29 37 aa 03 1d be ed ..f..7...)7.....
+0290: cd 17 30 1d 06 03 55 1d 0e 04 16 04 14 46 b3 be ..0...U......F..
+02a0: a4 62 36 a7 b8 1a 39 87 b8 8b d1 87 b9 4d 52 46 .b6...9......MRF
+02b0: fd 30 82 03 30 06 03 55 1d 11 04 82 03 27 30 82 .0..0..U.....'0.
+02c0: 03 23 82 1a 64 61 74 61 70 6c 61 74 66 6f 72 6d .#..dataplatform
+02d0: 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 1e .cloud.ibm.com..
+02e0: 61 70 69 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d api.dataplatform
+02f0: 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 22 .cloud.ibm.com."
+0300: 70 72 69 76 61 74 65 2e 64 61 74 61 70 6c 61 74 private.dataplat
+0310: 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 form.cloud.ibm.c
+0320: 6f 6d 82 26 70 72 69 76 61 74 65 2e 61 70 69 2e om.&private.api.
+0330: 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 6c 6f dataplatform.clo
+0340: 75 64 2e 69 62 6d 2e 63 6f 6d 82 20 65 75 2d 67 ud.ibm.com. eu-g
+0350: 62 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 b.dataplatform.c
+0360: 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 24 61 70 loud.ibm.com.$ap
+0370: 69 2e 65 75 2d 67 62 2e 64 61 74 61 70 6c 61 74 i.eu-gb.dataplat
+0380: 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 form.cloud.ibm.c
+0390: 6f 6d 82 28 70 72 69 76 61 74 65 2e 65 75 2d 67 om.(private.eu-g
+03a0: 62 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 b.dataplatform.c
+03b0: 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 2c 70 72 loud.ibm.com.,pr
+03c0: 69 76 61 74 65 2e 61 70 69 2e 65 75 2d 67 62 2e ivate.api.eu-gb.
+03d0: 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 6c 6f dataplatform.clo
+03e0: 75 64 2e 69 62 6d 2e 63 6f 6d 82 20 65 75 2d 64 ud.ibm.com. eu-d
+03f0: 65 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 e.dataplatform.c
+0400: 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 24 61 70 loud.ibm.com.$ap
+0410: 69 2e 65 75 2d 64 65 2e 64 61 74 61 70 6c 61 74 i.eu-de.dataplat
+0420: 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 form.cloud.ibm.c
+0430: 6f 6d 82 28 70 72 69 76 61 74 65 2e 65 75 2d 64 om.(private.eu-d
+0440: 65 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 e.dataplatform.c
+0450: 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 2c 70 72 loud.ibm.com.,pr
+0460: 69 76 61 74 65 2e 61 70 69 2e 65 75 2d 64 65 2e ivate.api.eu-de.
+0470: 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e 63 6c 6f dataplatform.clo
+0480: 75 64 2e 69 62 6d 2e 63 6f 6d 82 21 6a 70 2d 74 ud.ibm.com.!jp-t
+0490: 6f 6b 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d 2e ok.dataplatform.
+04a0: 63 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 25 61 cloud.ibm.com.%a
+04b0: 70 69 2e 6a 70 2d 74 6f 6b 2e 64 61 74 61 70 6c pi.jp-tok.datapl
+04c0: 61 74 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 6d atform.cloud.ibm
+04d0: 2e 63 6f 6d 82 29 70 72 69 76 61 74 65 2e 6a 70 .com.)private.jp
+04e0: 2d 74 6f 6b 2e 64 61 74 61 70 6c 61 74 66 6f 72 -tok.dataplatfor
+04f0: 6d 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 m.cloud.ibm.com.
+0500: 2d 70 72 69 76 61 74 65 2e 61 70 69 2e 6a 70 2d -private.api.jp-
+0510: 74 6f 6b 2e 64 61 74 61 70 6c 61 74 66 6f 72 6d tok.dataplatform
+0520: 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 82 27 .cloud.ibm.com.'
+0530: 69 6e 74 65 72 6e 61 6c 2e 61 70 69 2e 64 61 74 internal.api.dat
+0540: 61 70 6c 61 74 66 6f 72 6d 2e 63 6c 6f 75 64 2e aplatform.cloud.
+0550: 69 62 6d 2e 63 6f 6d 82 2d 69 6e 74 65 72 6e 61 ibm.com.-interna
+0560: 6c 2e 61 70 69 2e 65 75 2d 67 62 2e 64 61 74 61 l.api.eu-gb.data
+0570: 70 6c 61 74 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 platform.cloud.i
+0580: 62 6d 2e 63 6f 6d 82 2d 69 6e 74 65 72 6e 61 6c bm.com.-internal
+0590: 2e 61 70 69 2e 65 75 2d 64 65 2e 64 61 74 61 70 .api.eu-de.datap
+05a0: 6c 61 74 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 latform.cloud.ib
+05b0: 6d 2e 63 6f 6d 82 2e 69 6e 74 65 72 6e 61 6c 2e m.com..internal.
+05c0: 61 70 69 2e 6a 70 2d 74 6f 6b 2e 64 61 74 61 70 api.jp-tok.datap
+05d0: 6c 61 74 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 latform.cloud.ib
+05e0: 6d 2e 63 6f 6d 30 3e 06 03 55 1d 20 04 37 30 35 m.com0>..U. .705
+05f0: 30 33 06 06 67 81 0c 01 02 02 30 29 30 27 06 08 03..g.....0)0'..
+0600: 2b 06 01 05 05 07 02 01 16 1b 68 74 74 70 3a 2f +.........http:/
+0610: 2f 77 77 77 2e 64 69 67 69 63 65 72 74 2e 63 6f /www.digicert.co
+0620: 6d 2f 43 50 53 30 0e 06 03 55 1d 0f 01 01 ff 04 m/CPS0...U......
+0630: 04 03 02 05 a0 30 1d 06 03 55 1d 25 04 16 30 14 .....0...U.%..0.
+0640: 06 08 2b 06 01 05 05 07 03 01 06 08 2b 06 01 05 ..+.........+...
+0650: 05 07 03 02 30 81 9f 06 03 55 1d 1f 04 81 97 30 ....0....U.....0
+0660: 81 94 30 48 a0 46 a0 44 86 42 68 74 74 70 3a 2f ..0H.F.D.Bhttp:/
+0670: 2f 63 72 6c 33 2e 64 69 67 69 63 65 72 74 2e 63 /crl3.digicert.c
+0680: 6f 6d 2f 44 69 67 69 43 65 72 74 47 6c 6f 62 61 om/DigiCertGloba
+0690: 6c 47 32 54 4c 53 52 53 41 53 48 41 32 35 36 32 lG2TLSRSASHA2562
+06a0: 30 32 30 43 41 31 2d 31 2e 63 72 6c 30 48 a0 46 020CA1-1.crl0H.F
+06b0: a0 44 86 42 68 74 74 70 3a 2f 2f 63 72 6c 34 2e .D.Bhttp://crl4.
+06c0: 64 69 67 69 63 65 72 74 2e 63 6f 6d 2f 44 69 67 digicert.com/Dig
+06d0: 69 43 65 72 74 47 6c 6f 62 61 6c 47 32 54 4c 53 iCertGlobalG2TLS
+06e0: 52 53 41 53 48 41 32 35 36 32 30 32 30 43 41 31 RSASHA2562020CA1
+06f0: 2d 31 2e 63 72 6c 30 81 87 06 08 2b 06 01 05 05 -1.crl0....+....
+0700: 07 01 01 04 7b 30 79 30 24 06 08 2b 06 01 05 05 ....{0y0$..+....
+0710: 07 30 01 86 18 68 74 74 70 3a 2f 2f 6f 63 73 70 .0...http://ocsp
+0720: 2e 64 69 67 69 63 65 72 74 2e 63 6f 6d 30 51 06 .digicert.com0Q.
+0730: 08 2b 06 01 05 05 07 30 02 86 45 68 74 74 70 3a .+.....0..Ehttp:
+0740: 2f 2f 63 61 63 65 72 74 73 2e 64 69 67 69 63 65 //cacerts.digice
+0750: 72 74 2e 63 6f 6d 2f 44 69 67 69 43 65 72 74 47 rt.com/DigiCertG
+0760: 6c 6f 62 61 6c 47 32 54 4c 53 52 53 41 53 48 41 lobalG2TLSRSASHA
+0770: 32 35 36 32 30 32 30 43 41 31 2d 31 2e 63 72 74 2562020CA1-1.crt
+0780: 30 0c 06 03 55 1d 13 01 01 ff 04 02 30 00 30 82 0...U.......0.0.
+0790: 01 7e 06 0a 2b 06 01 04 01 d6 79 02 04 02 04 82 .~..+.....y.....
+07a0: 01 6e 04 82 01 6a 01 68 00 75 00 12 f1 4e 34 bd .n...j.h.u...N4.
+07b0: 53 72 4c 84 06 19 c3 8f 3f 7a 13 f8 e7 b5 62 87 SrL.....?z....b.
+07c0: 88 9c 6d 30 05 84 eb e5 86 26 3a 00 00 01 8f ef ..m0.....&:.....
+07d0: 9f 99 fc 00 00 04 03 00 46 30 44 02 20 29 31 ca ........F0D. )1.
+07e0: cb 8d 74 3d 3e 86 2e 7a 0d b9 35 7b dc 03 4e a8 ..t=>..z..5{..N.
+07f0: a2 f2 9f b8 82 73 eb ab 2d e3 48 8d c1 02 20 49 .....s..-.H... I
+0800: 15 f2 f5 12 d2 27 c1 3c 1e 15 a4 d4 00 7c ce 79 .....'.<.....|.y
+0810: 82 05 16 59 95 52 d1 80 74 b4 f8 00 89 09 c5 00 ...Y.R..t.......
+0820: 76 00 7d 59 1e 12 e1 78 2a 7b 1c 61 67 7c 5e fd v.}Y...x*{.ag|^.
+0830: f8 d0 87 5c 14 a0 4e 95 9e b9 03 2f d9 0e 8c 2e ...\..N..../....
+0840: 79 b8 00 00 01 8f ef 9f 99 78 00 00 04 03 00 47 y........x.....G
+0850: 30 45 02 21 00 a2 da 84 d9 bb 27 28 e9 35 73 de 0E.!......'(.5s.
+0860: 64 92 20 be 1e e3 e8 f1 5e a5 f5 d0 99 77 95 6f d. .....^....w.o
+0870: 0c 1d 6a 38 7a 02 20 39 4d bc 8d 54 08 25 04 d8 ..j8z. 9M..T.%..
+0880: e1 7a cb bf 9f f8 34 62 1c 9a fc 91 c4 e2 42 12 .z....4b......B.
+0890: 8c 4f 72 5a 25 e1 b7 00 77 00 e6 d2 31 63 40 77 .OrZ%...w...1c@w
+08a0: 8c c1 10 41 06 d7 71 b9 ce c1 d2 40 f6 96 84 86 ...A..q....@....
+08b0: fb ba 87 32 1d fd 1e 37 8e 50 00 00 01 8f ef 9f ...2...7.P......
+08c0: 99 91 00 00 04 03 00 48 30 46 02 21 00 fe 17 80 .......H0F.!....
+08d0: 35 50 18 c8 ef af b4 1c be d3 b3 01 6f e0 0e 01 5P..........o...
+08e0: 32 41 97 9c e8 ae 00 54 ce 38 fb 8a c5 02 21 00 2A.....T.8....!.
+08f0: 8d 70 31 cc 54 22 94 9d db b2 41 72 3c fc 87 93 .p1.T"....Ar<...
+0900: ff 21 2c d7 82 35 78 98 42 5e 0e 5a 6a e7 19 3b .!,..5x.B^.Zj..;
+0910: 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 0...*.H.........
+0920: 82 01 01 00 4f c1 ad 69 20 0f ee 2c a2 89 2b 3b ....O..i ..,..+;
+0930: 6a ce c7 b2 75 3d 19 8a 41 f4 45 db d7 82 3c fd j...u=..A.E...<.
+0940: 9b dd f1 ba 0b 63 b0 80 9f f7 24 63 b1 a9 ee 52 .....c....$c...R
+0950: d5 36 6b aa c9 8f 77 95 05 68 8b b3 69 d1 38 d1 .6k...w..h..i.8.
+0960: 53 04 07 af c6 38 0f 1d 6e b0 ac 75 b2 8a 47 16 S....8..n..u..G.
+0970: cb 88 a0 13 59 7f 5f d9 64 1c 5d ac f1 9e 18 a9 ....Y._.d.].....
+0980: b3 27 b7 87 83 41 23 6f 8b 95 9c 1c 1f eb 5f 45 .'...A#o......_E
+0990: 09 8e 93 53 a9 8f c6 fc fc b8 ac bb d2 eb ef b1 ...S............
+09a0: a7 73 e6 85 a2 64 69 03 a9 80 21 53 93 fe b4 79 .s...di...!S...y
+09b0: 25 98 50 e5 b3 0a b6 69 cc 1d 45 58 3a 1d b9 2c %.P....i..EX:..,
+09c0: 2d 26 7a 63 00 6e d5 d4 6e 2c 86 51 e6 f0 5e 33 -&zc.n..n,.Q..^3
+09d0: c4 2c 2d 58 a6 cb 3b e3 f6 42 ec 4b bc 0f d7 e0 .,-X..;..B.K....
+09e0: 0d 77 36 cb 96 80 3d c4 f3 e6 d8 9b b0 21 7b 5f .w6...=......!{_
+09f0: 9f 83 5c 82 92 2d ff 50 5b 39 39 97 01 7c 77 1c ..\..-.P[99..|w.
+0a00: 5e db 90 47 c7 79 63 06 89 4e e7 78 28 91 07 27 ^..G.yc..N.x(..'
+0a10: 52 39 18 6b c9 c9 8a 90 4b bc d7 80 45 d0 75 2f R9.k....K...E.u/
+0a20: 75 1b 12 0b 00 00 00 04 f8 30 82 04 f4 30 82 03 u........0...0..
+0a30: dc a0 03 02 01 02 02 10 08 5f 94 c0 2d 85 7b e8 ........._..-.{.
+0a40: cc 14 ff 53 ed a2 3e 2a 30 0d 06 09 2a 86 48 86 ...S..>*0...*.H.
+0a50: f7 0d 01 01 0b 05 00 30 61 31 0b 30 09 06 03 55 .......0a1.0...U
+0a60: 04 06 13 02 55 53 31 15 30 13 06 03 55 04 0a 13 ....US1.0...U...
+0a70: 0c 44 69 67 69 43 65 72 74 20 49 6e 63 31 19 30 .DigiCert Inc1.0
+0a80: 17 06 03 55 04 0b 13 10 77 77 77 2e 64 69 67 69 ...U....www.digi
+0a90: 63 65 72 74 2e 63 6f 6d 31 20 30 1e 06 03 55 04 cert.com1 0...U.
+0aa0: 03 13 17 44 69 67 69 43 65 72 74 20 47 6c 6f 62 ...DigiCert Glob
+0ab0: 61 6c 20 52 6f 6f 74 20 47 32 30 1e 17 0d 32 30 al Root G20...20
+0ac0: 30 39 32 34 30 30 30 30 30 30 5a 17 0d 33 30 30 0924000000Z..300
+0ad0: 39 32 33 32 33 35 39 35 39 5a 30 59 31 0b 30 09 923235959Z0Y1.0.
+0ae0: 06 03 55 04 06 13 02 55 53 31 15 30 13 06 03 55 ..U....US1.0...U
+0af0: 04 0a 13 0c 44 69 67 69 43 65 72 74 20 49 6e 63 ....DigiCert Inc
+0b00: 31 33 30 31 06 03 55 04 03 13 2a 44 69 67 69 43 1301..U...*DigiC
+0b10: 65 72 74 20 47 6c 6f 62 61 6c 20 47 32 20 54 4c ert Global G2 TL
+0b20: 53 20 52 53 41 20 53 48 41 32 35 36 20 32 30 32 S RSA SHA256 202
+0b30: 30 20 43 41 31 30 82 01 22 30 0d 06 09 2a 86 48 0 CA10.."0...*.H
+0b40: 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 .............0..
+0b50: 0a 02 82 01 01 00 cc f7 10 62 4f a6 bb 63 6f ed .........bO..co.
+0b60: 90 52 56 c5 6d 27 7b 7a 12 56 8a f1 f4 f9 d6 e7 .RV.m'{z.V......
+0b70: e1 8f bd 95 ab f2 60 41 15 70 db 12 00 fa 27 0a ......`A.p....'.
+0b80: b5 57 38 5b 7d b2 51 93 71 95 0e 6a 41 94 5b 35 .W8[}.Q.q..jA.[5
+0b90: 1b fa 7b fa bb c5 be 24 30 fe 56 ef c4 f3 7d 97 ..{....$0.V...}.
+0ba0: e3 14 f5 14 4d cb a7 10 f2 16 ea ab 22 f0 31 22 ....M.......".1"
+0bb0: 11 61 69 90 26 ba 78 d9 97 1f e3 7d 66 ab 75 44 .ai.&.x....}f.uD
+0bc0: 95 73 c8 ac ff ef 5d 0a 8a 59 43 e1 ac b2 3a 0f .s....]..YC...:.
+0bd0: f3 48 fc d7 6b 37 c1 63 dc de 46 d6 db 45 fe 7d .H..k7.c..F..E.}
+0be0: 23 fd 90 e8 51 07 1e 51 a3 5f ed 49 46 54 7f 2c #...Q..Q._.IFT.,
+0bf0: 88 c5 f4 13 9c 97 15 3c 03 e8 a1 39 dc 69 0c 32 .......<...9.i.2
+0c00: c1 af 16 57 4c 94 47 42 7c a2 c8 9c 7d e6 d4 4d ...WL.GB|...}..M
+0c10: 54 af 42 99 a8 c1 04 c2 77 9c d6 48 e4 ce 11 e0 T.B.....w..H....
+0c20: 2a 80 99 f0 43 70 cf 3f 76 6b d1 4c 49 ab 24 5e *...Cp.?vk.LI.$^
+0c30: c2 0d 82 fd 46 a8 ab 6c 93 cc 62 52 42 75 92 f8 ....F..l..bRBu..
+0c40: 9a fa 5e 5e b2 b0 61 e5 1f 1f b9 7f 09 98 e8 3d ..^^..a........=
+0c50: fa 83 7f 47 69 a1 02 03 01 00 01 a3 82 01 ae 30 ...Gi..........0
+0c60: 82 01 aa 30 1d 06 03 55 1d 0e 04 16 04 14 74 85 ...0...U......t.
+0c70: 80 c0 66 c7 df 37 de cf bd 29 37 aa 03 1d be ed ..f..7...)7.....
+0c80: cd 17 30 1f 06 03 55 1d 23 04 18 30 16 80 14 4e ..0...U.#..0...N
+0c90: 22 54 20 18 95 e6 e3 6e e6 0f fa fa b9 12 ed 06 "T ....n........
+0ca0: 17 8f 39 30 0e 06 03 55 1d 0f 01 01 ff 04 04 03 ..90...U........
+0cb0: 02 01 86 30 1d 06 03 55 1d 25 04 16 30 14 06 08 ...0...U.%..0...
+0cc0: 2b 06 01 05 05 07 03 01 06 08 2b 06 01 05 05 07 +.........+.....
+0cd0: 03 02 30 12 06 03 55 1d 13 01 01 ff 04 08 30 06 ..0...U.......0.
+0ce0: 01 01 ff 02 01 00 30 76 06 08 2b 06 01 05 05 07 ......0v..+.....
+0cf0: 01 01 04 6a 30 68 30 24 06 08 2b 06 01 05 05 07 ...j0h0$..+.....
+0d00: 30 01 86 18 68 74 74 70 3a 2f 2f 6f 63 73 70 2e 0...http://ocsp.
+0d10: 64 69 67 69 63 65 72 74 2e 63 6f 6d 30 40 06 08 digicert.com0@..
+0d20: 2b 06 01 05 05 07 30 02 86 34 68 74 74 70 3a 2f +.....0..4http:/
+0d30: 2f 63 61 63 65 72 74 73 2e 64 69 67 69 63 65 72 /cacerts.digicer
+0d40: 74 2e 63 6f 6d 2f 44 69 67 69 43 65 72 74 47 6c t.com/DigiCertGl
+0d50: 6f 62 61 6c 52 6f 6f 74 47 32 2e 63 72 74 30 7b obalRootG2.crt0{
+0d60: 06 03 55 1d 1f 04 74 30 72 30 37 a0 35 a0 33 86 ..U...t0r07.5.3.
+0d70: 31 68 74 74 70 3a 2f 2f 63 72 6c 33 2e 64 69 67 1http://crl3.dig
+0d80: 69 63 65 72 74 2e 63 6f 6d 2f 44 69 67 69 43 65 icert.com/DigiCe
+0d90: 72 74 47 6c 6f 62 61 6c 52 6f 6f 74 47 32 2e 63 rtGlobalRootG2.c
+0da0: 72 6c 30 37 a0 35 a0 33 86 31 68 74 74 70 3a 2f rl07.5.3.1http:/
+0db0: 2f 63 72 6c 34 2e 64 69 67 69 63 65 72 74 2e 63 /crl4.digicert.c
+0dc0: 6f 6d 2f 44 69 67 69 43 65 72 74 47 6c 6f 62 61 om/DigiCertGloba
+0dd0: 6c 52 6f 6f 74 47 32 2e 63 72 6c 30 30 06 03 55 lRootG2.crl00..U
+0de0: 1d 20 04 29 30 27 30 07 06 05 67 81 0c 01 01 30 . .)0'0...g....0
+0df0: 08 06 06 67 81 0c 01 02 01 30 08 06 06 67 81 0c ...g.....0...g..
+0e00: 01 02 02 30 08 06 06 67 81 0c 01 02 03 30 0d 06 ...0...g.....0..
+0e10: 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 82 01 01 .*.H............
+0e20: 00 75 8b c0 3c 5b ef ff 70 5c 6b 8a f5 21 ef ac .u..<[..p\k..!..
+0e30: 31 e6 43 3d 80 af d7 55 a9 1e c3 8e 18 6c 79 d3 1.C=...U.....ly.
+0e40: f7 ac 42 df 8f 88 c5 9d b4 75 f3 c9 08 fd 8a fe ..B......u......
+0e50: 51 f3 f2 9d 20 1a 04 35 ce f8 b6 41 79 af ff cc Q... ..5...Ay...
+0e60: 96 5e 94 d3 9a 1d 70 2e a2 31 8b fb a5 cc 7f 56 .^....p..1.....V
+0e70: df 17 37 97 bf c1 8d 43 86 ab 8c 66 7e b9 ed 8b ..7....C...f~...
+0e80: f1 0f 8c b5 d4 55 af 5c 89 9e e0 a7 2a 6d b2 a3 .....U.\....*m..
+0e90: 63 32 18 3b cb de b5 9f 83 b3 11 01 ac 20 0d 90 c2.;......... ..
+0ea0: 97 12 b7 29 9c 35 b5 d7 91 0e ef 40 6f 6d 5c 3b ...).5.....@om\;
+0eb0: bd a1 d9 fb e2 cb 2e 76 40 d2 3a bb 2c bf 16 0b .......v@.:.,...
+0ec0: ea bd 03 5b 4e 98 3a 2a ed 05 50 07 15 93 3c 73 ...[N.:*..P...<s
+0ed0: 39 91 94 5a 48 0e c6 d3 4a 01 af 66 39 b9 bd 42 9..ZH...J..f9..B
+0ee0: 34 1c db 08 03 f3 40 fc 12 e8 ae 3c ab 8a d5 fb 4.....@....<....
+0ef0: 72 79 64 a6 e3 0e 55 b1 3b 95 3f ad 60 33 67 8a ryd...U.;.?.`3g.
+0f00: ac b6 a7 5c f0 ed 5a 52 1b d4 61 e1 25 12 e6 07 ...\..ZR..a.%...
+0f10: b5 aa 94 b2 f0 28 f6 61 26 5e 55 1c f8 01 eb 77 .....(.a&^U....w
+0f20: 71 00 00                                        q..
+== Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+<= Recv SSL data, 264 bytes (0x108)
+0000: 0f 00 01 04 08 04 01 00 11 7c 2b 21 a3 21 21 16 .........|+!.!!.
+0010: a9 3d 54 58 02 8d 77 ca 27 47 04 a0 a2 36 6b 38 .=TX..w.'G...6k8
+0020: 3c c2 14 20 9e fe 06 6b bb b8 45 17 3c c0 c0 cb <.. ...k..E.<...
+0030: b9 28 5b cd e0 b3 5e f7 9d 13 05 3d 33 36 13 72 .([...^....=36.r
+0040: 08 b5 75 64 dc 2d e2 b6 3a a8 6f 03 18 0c 86 9a ..ud.-..:.o.....
+0050: d0 98 d2 62 30 05 ee 4b 88 e4 03 7f 28 1a 05 57 ...b0..K....(..W
+0060: 63 22 15 17 5e 5a 05 24 f0 4d c6 65 0a 97 4d 27 c"..^Z.$.M.e..M'
+0070: 3e 7f 93 b2 9c 04 46 7b ff ff 5d 00 d3 61 54 d0 >.....F{..]..aT.
+0080: 5f 0e 60 fb c5 fd 8f 5e 67 43 08 f5 28 d4 0b 8f _.`....^gC..(...
+0090: c4 3d 53 41 90 b4 ec f2 ae d5 74 a5 79 10 e1 7f .=SA......t.y...
+00a0: f6 f9 c0 ff 7c eb 41 ac ed 34 7d 4c c7 32 5b b5 ....|.A..4}L.2[.
+00b0: 1b ac c4 b3 14 00 20 f5 3e 42 49 47 22 29 f0 d5 ...... .>BIG")..
+00c0: 84 b2 00 1a 4c a2 f8 6f 1c 04 15 1f dc b3 d7 6e ....L..o.......n
+00d0: d5 22 a5 0a 0b 76 b8 69 06 2a 03 21 53 5e c5 50 ."...v.i.*.!S^.P
+00e0: 6e 54 75 90 e6 71 cd 60 4b 59 4b fb 9c d8 2f 5d nTu..q.`KYK.../]
+00f0: f7 83 47 c2 42 e1 42 2a c9 fd a5 c9 65 c1 17 64 ..G.B.B*....e..d
+0100: 3b d1 5c 15 31 08 9f e5                         ;.\.1...
+== Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 52 bytes (0x34)
+0000: 14 00 00 30 db 20 a3 24 fa 46 a2 f0 85 27 ce af ...0. .$.F...'..
+0010: 49 07 24 1d c5 cd 6f 07 36 9f 73 30 1d 6d dd 42 I.$...o.6.s0.m.B
+0020: df ca bf b8 4c ba 78 35 04 54 1b bd 18 15 5f d3 ....L.x5.T...._.
+0030: 3a 85 15 6d                                     :..m
+=> Send SSL data, 5 bytes (0x5)
+0000: 14 03 03 00 01                                  .....
+== Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: 01                                              .
+=> Send SSL data, 5 bytes (0x5)
+0000: 17 03 03 00 45                                  ....E
+=> Send SSL data, 1 bytes (0x1)
+0000: 16                                              .
+== Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 52 bytes (0x34)
+0000: 14 00 00 30 a2 0c db 9c 55 a0 33 ad aa b3 4c e0 ...0....U.3...L.
+0010: 72 ad 7f cf 59 e8 ab 75 6a 21 da b0 95 ec b8 ca r...Y..uj!......
+0020: 2b d2 5f eb 7e 42 3b 9e af 5f fa 3d 09 fb 67 3e +._.~B;.._.=..g>
+0030: 59 57 3b 0a                                     YW;.
+== Info: SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / x25519 / RSASSA-PSS
+== Info: ALPN: server accepted h2
+== Info: Server certificate:
+== Info:  subject: C=US; ST=New York; L=Armonk; O=International Business Machines Corporation; CN=dataplatform.cloud.ibm.com
+== Info:  start date: Jun  6 00:00:00 2024 GMT
+== Info:  expire date: Jul  7 23:59:59 2025 GMT
+== Info:  subjectAltName: host "api.dataplatform.cloud.ibm.com" matched cert's "api.dataplatform.cloud.ibm.com"
+== Info:  issuer: C=US; O=DigiCert Inc; CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+== Info:  SSL certificate verify ok.
+== Info:   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+== Info:   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+== Info:   Certificate level 2: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+=> Send SSL data, 5 bytes (0x5)
+0000: 17 03 03 00 51                                  ....Q
+=> Send SSL data, 1 bytes (0x1)
+0000: 17                                              .
+== Info: using HTTP/2
+== Info: [HTTP/2] [1] OPENED stream for https://api.dataplatform.cloud.ibm.com/v2/wca/core/chat/text/generation
+== Info: [HTTP/2] [1] [:method: POST]
+== Info: [HTTP/2] [1] [:scheme: https]
+== Info: [HTTP/2] [1] [:authority: api.dataplatform.cloud.ibm.com]
+== Info: [HTTP/2] [1] [:path: /v2/wca/core/chat/text/generation]
+== Info: [HTTP/2] [1] [user-agent: curl/8.9.1]
+== Info: [HTTP/2] [1] [accept: */*]
+== Info: [HTTP/2] [1] [authorization: Bearer eyJraWQiOiIyMDI1MDQzMDA4NDUiLCJhbGciOiJSUzI1NiJ9.eyJpYW1faWQiOiJpYW0tU2VydmljZUlkLWQ3ZmNiN2FiLTAyZDUtNDg3Zi1hOTY5LTY5MjFjMDQ5ZjAxYyIsImlkIjoiaWFtLVNlcnZpY2VJZC1kN2ZjYjdhYi0wMmQ1LTQ4N2YtYTk2OS02OTIxYzA0OWYwMWMiLCJyZWFsbWlkIjoiaWFtIiwianRpIjoiNjAyMjYzZTYtN2EwNC00YmE2LTk2M2EtNmMwYzc4MTM2OGRmIiwiaWRlbnRpZmllciI6IlNlcnZpY2VJZC1kN2ZjYjdhYi0wMmQ1LTQ4N2YtYTk2OS02OTIxYzA0OWYwMWMiLCJuYW1lIjoiZmFiaWFuLmtsb3BmZXJAaWJtLmNvbSIsInN1YiI6IlNlcnZpY2VJZC1kN2ZjYjdhYi0wMmQ1LTQ4N2YtYTk2OS02OTIxYzA0OWYwMWMiLCJzdWJfdHlwZSI6IlNlcnZpY2VJZCIsImF1dGhuIjp7InN1YiI6IlNlcnZpY2VJZC1kN2ZjYjdhYi0wMmQ1LTQ4N2YtYTk2OS02OTIxYzA0OWYwMWMiLCJpYW1faWQiOiJpYW0tU2VydmljZUlkLWQ3ZmNiN2FiLTAyZDUtNDg3Zi1hOTY5LTY5MjFjMDQ5ZjAxYyIsInN1Yl90eXBlIjoiU2VydmljZUlkIiwibmFtZSI6ImZhYmlhbi5rbG9wZmVyQGlibS5jb20ifSwiYWNjb3VudCI6eyJ2YWxpZCI6dHJ1ZSwiYnNzIjoiNGNmNTFiYWU4NTZiNGY1ODhiYTg2MmM3NzViOWU2MjQiLCJmcm96ZW4iOnRydWV9LCJpYXQiOjE3NDY0ODExMjIsImV4cCI6MTc0NjQ4NDcyMiwiaXNzIjoiaHR0cHM6Ly9pYW0uY2xvdWQuaWJtLmNvbS9pZGVudGl0eSIsImdyYW50X3R5cGUiOiJ1cm46aWJtOnBhcmFtczpvYXV0aDpncmFudC10eXBlOmFwaWtleSIsInNjb3BlIjoiaWJtIG9wZW5pZCIsImNsaWVudF9pZCI6ImRlZmF1bHQiLCJhY3IiOjEsImFtciI6WyJwd2QiXX0.EqNmlgKnZAtbdTX-Yd93e6PtNvlnyWuT1sXsABXXJzAKNEShSo8z14kK7k_PF26oVL0wGUsFERfALfQBm7nVVpOENGO9aVoNrCCdCDL26nAQ2acWRTOrHJlEdtvNIo8oqAj3_JViiTmtyoOtUdNpDKcVyCPIUa1ZFRkRjoEgz3AH7tZD76p_SCweSv5Y3UYH1uuPjy9YYR8PVX55g1jsf-zDqbXfQHEaerwliY4d0SSBwG6QevmEMbgvuxA02xCFMpFfTKSA2uK5b8WaNGlW15NPP1y4Q2atgnCzEIwdQAE0MjoddIEcOENbvo33KBTma2wpOXaAExse_26WAeuAfw]
+== Info: [HTTP/2] [1] [request-id: 35cd410f-5098-4907-9a5f-0ccaf2b059b7]
+== Info: [HTTP/2] [1] [content-type: multipart/form-data; boundary=------------------------jTR3M3Sulr2T1gyb0lwxdb]
+=> Send SSL data, 5 bytes (0x5)
+0000: 17 03 03 0a b5                                  .....
+=> Send SSL data, 1 bytes (0x1)
+0000: 17                                              .
+=> Send header, 1765 bytes (0x6e5)
+0000: 50 4f 53 54 20 2f 76 32 2f 77 63 61 2f 63 6f 72 POST /v2/wca/cor
+0010: 65 2f 63 68 61 74 2f 74 65 78 74 2f 67 65 6e 65 e/chat/text/gene
+0020: 72 61 74 69 6f 6e 20 48 54 54 50 2f 32 0d 0a 48 ration HTTP/2..H
+0030: 6f 73 74 3a 20 61 70 69 2e 64 61 74 61 70 6c 61 ost: api.datapla
+0040: 74 66 6f 72 6d 2e 63 6c 6f 75 64 2e 69 62 6d 2e tform.cloud.ibm.
+0050: 63 6f 6d 0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a com..User-Agent:
+0060: 20 63 75 72 6c 2f 38 2e 39 2e 31 0d 0a 41 63 63  curl/8.9.1..Acc
+0070: 65 70 74 3a 20 2a 2f 2a 0d 0a 41 75 74 68 6f 72 ept: */*..Author
+0080: 69 7a 61 74 69 6f 6e 3a 20 42 65 61 72 65 72 20 ization: Bearer 
+0090: 65 79 4a 72 61 57 51 69 4f 69 49 79 4d 44 49 31 eyJraWQiOiIyMDI1
+00a0: 4d 44 51 7a 4d 44 41 34 4e 44 55 69 4c 43 4a 68 MDQzMDA4NDUiLCJh
+00b0: 62 47 63 69 4f 69 4a 53 55 7a 49 31 4e 69 4a 39 bGciOiJSUzI1NiJ9
+00c0: 2e 65 79 4a 70 59 57 31 66 61 57 51 69 4f 69 4a .eyJpYW1faWQiOiJ
+00d0: 70 59 57 30 74 55 32 56 79 64 6d 6c 6a 5a 55 6c pYW0tU2VydmljZUl
+00e0: 6b 4c 57 51 33 5a 6d 4e 69 4e 32 46 69 4c 54 41 kLWQ3ZmNiN2FiLTA
+00f0: 79 5a 44 55 74 4e 44 67 33 5a 69 31 68 4f 54 59 yZDUtNDg3Zi1hOTY
+0100: 35 4c 54 59 35 4d 6a 46 6a 4d 44 51 35 5a 6a 41 5LTY5MjFjMDQ5ZjA
+0110: 78 59 79 49 73 49 6d 6c 6b 49 6a 6f 69 61 57 46 xYyIsImlkIjoiaWF
+0120: 74 4c 56 4e 6c 63 6e 5a 70 59 32 56 4a 5a 43 31 tLVNlcnZpY2VJZC1
+0130: 6b 4e 32 5a 6a 59 6a 64 68 59 69 30 77 4d 6d 51 kN2ZjYjdhYi0wMmQ
+0140: 31 4c 54 51 34 4e 32 59 74 59 54 6b 32 4f 53 30 1LTQ4N2YtYTk2OS0
+0150: 32 4f 54 49 78 59 7a 41 30 4f 57 59 77 4d 57 4d 2OTIxYzA0OWYwMWM
+0160: 69 4c 43 4a 79 5a 57 46 73 62 57 6c 6b 49 6a 6f iLCJyZWFsbWlkIjo
+0170: 69 61 57 46 74 49 69 77 69 61 6e 52 70 49 6a 6f iaWFtIiwianRpIjo
+0180: 69 4e 6a 41 79 4d 6a 59 7a 5a 54 59 74 4e 32 45 iNjAyMjYzZTYtN2E
+0190: 77 4e 43 30 30 59 6d 45 32 4c 54 6b 32 4d 32 45 wNC00YmE2LTk2M2E
+01a0: 74 4e 6d 4d 77 59 7a 63 34 4d 54 4d 32 4f 47 52 tNmMwYzc4MTM2OGR
+01b0: 6d 49 69 77 69 61 57 52 6c 62 6e 52 70 5a 6d 6c mIiwiaWRlbnRpZml
+01c0: 6c 63 69 49 36 49 6c 4e 6c 63 6e 5a 70 59 32 56 lciI6IlNlcnZpY2V
+01d0: 4a 5a 43 31 6b 4e 32 5a 6a 59 6a 64 68 59 69 30 JZC1kN2ZjYjdhYi0
+01e0: 77 4d 6d 51 31 4c 54 51 34 4e 32 59 74 59 54 6b wMmQ1LTQ4N2YtYTk
+01f0: 32 4f 53 30 32 4f 54 49 78 59 7a 41 30 4f 57 59 2OS02OTIxYzA0OWY
+0200: 77 4d 57 4d 69 4c 43 4a 75 59 57 31 6c 49 6a 6f wMWMiLCJuYW1lIjo
+0210: 69 5a 6d 46 69 61 57 46 75 4c 6d 74 73 62 33 42 iZmFiaWFuLmtsb3B
+0220: 6d 5a 58 4a 41 61 57 4a 74 4c 6d 4e 76 62 53 49 mZXJAaWJtLmNvbSI
+0230: 73 49 6e 4e 31 59 69 49 36 49 6c 4e 6c 63 6e 5a sInN1YiI6IlNlcnZ
+0240: 70 59 32 56 4a 5a 43 31 6b 4e 32 5a 6a 59 6a 64 pY2VJZC1kN2ZjYjd
+0250: 68 59 69 30 77 4d 6d 51 31 4c 54 51 34 4e 32 59 hYi0wMmQ1LTQ4N2Y
+0260: 74 59 54 6b 32 4f 53 30 32 4f 54 49 78 59 7a 41 tYTk2OS02OTIxYzA
+0270: 30 4f 57 59 77 4d 57 4d 69 4c 43 4a 7a 64 57 4a 0OWYwMWMiLCJzdWJ
+0280: 66 64 48 6c 77 5a 53 49 36 49 6c 4e 6c 63 6e 5a fdHlwZSI6IlNlcnZ
+0290: 70 59 32 56 4a 5a 43 49 73 49 6d 46 31 64 47 68 pY2VJZCIsImF1dGh
+02a0: 75 49 6a 70 37 49 6e 4e 31 59 69 49 36 49 6c 4e uIjp7InN1YiI6IlN
+02b0: 6c 63 6e 5a 70 59 32 56 4a 5a 43 31 6b 4e 32 5a lcnZpY2VJZC1kN2Z
+02c0: 6a 59 6a 64 68 59 69 30 77 4d 6d 51 31 4c 54 51 jYjdhYi0wMmQ1LTQ
+02d0: 34 4e 32 59 74 59 54 6b 32 4f 53 30 32 4f 54 49 4N2YtYTk2OS02OTI
+02e0: 78 59 7a 41 30 4f 57 59 77 4d 57 4d 69 4c 43 4a xYzA0OWYwMWMiLCJ
+02f0: 70 59 57 31 66 61 57 51 69 4f 69 4a 70 59 57 30 pYW1faWQiOiJpYW0
+0300: 74 55 32 56 79 64 6d 6c 6a 5a 55 6c 6b 4c 57 51 tU2VydmljZUlkLWQ
+0310: 33 5a 6d 4e 69 4e 32 46 69 4c 54 41 79 5a 44 55 3ZmNiN2FiLTAyZDU
+0320: 74 4e 44 67 33 5a 69 31 68 4f 54 59 35 4c 54 59 tNDg3Zi1hOTY5LTY
+0330: 35 4d 6a 46 6a 4d 44 51 35 5a 6a 41 78 59 79 49 5MjFjMDQ5ZjAxYyI
+0340: 73 49 6e 4e 31 59 6c 39 30 65 58 42 6c 49 6a 6f sInN1Yl90eXBlIjo
+0350: 69 55 32 56 79 64 6d 6c 6a 5a 55 6c 6b 49 69 77 iU2VydmljZUlkIiw
+0360: 69 62 6d 46 74 5a 53 49 36 49 6d 5a 68 59 6d 6c ibmFtZSI6ImZhYml
+0370: 68 62 69 35 72 62 47 39 77 5a 6d 56 79 51 47 6c hbi5rbG9wZmVyQGl
+0380: 69 62 53 35 6a 62 32 30 69 66 53 77 69 59 57 4e ibS5jb20ifSwiYWN
+0390: 6a 62 33 56 75 64 43 49 36 65 79 4a 32 59 57 78 jb3VudCI6eyJ2YWx
+03a0: 70 5a 43 49 36 64 48 4a 31 5a 53 77 69 59 6e 4e pZCI6dHJ1ZSwiYnN
+03b0: 7a 49 6a 6f 69 4e 47 4e 6d 4e 54 46 69 59 57 55 zIjoiNGNmNTFiYWU
+03c0: 34 4e 54 5a 69 4e 47 59 31 4f 44 68 69 59 54 67 4NTZiNGY1ODhiYTg
+03d0: 32 4d 6d 4d 33 4e 7a 56 69 4f 57 55 32 4d 6a 51 2MmM3NzViOWU2MjQ
+03e0: 69 4c 43 4a 6d 63 6d 39 36 5a 57 34 69 4f 6e 52 iLCJmcm96ZW4iOnR
+03f0: 79 64 57 56 39 4c 43 4a 70 59 58 51 69 4f 6a 45 ydWV9LCJpYXQiOjE
+0400: 33 4e 44 59 30 4f 44 45 78 4d 6a 49 73 49 6d 56 3NDY0ODExMjIsImV
+0410: 34 63 43 49 36 4d 54 63 30 4e 6a 51 34 4e 44 63 4cCI6MTc0NjQ4NDc
+0420: 79 4d 69 77 69 61 58 4e 7a 49 6a 6f 69 61 48 52 yMiwiaXNzIjoiaHR
+0430: 30 63 48 4d 36 4c 79 39 70 59 57 30 75 59 32 78 0cHM6Ly9pYW0uY2x
+0440: 76 64 57 51 75 61 57 4a 74 4c 6d 4e 76 62 53 39 vdWQuaWJtLmNvbS9
+0450: 70 5a 47 56 75 64 47 6c 30 65 53 49 73 49 6d 64 pZGVudGl0eSIsImd
+0460: 79 59 57 35 30 58 33 52 35 63 47 55 69 4f 69 4a yYW50X3R5cGUiOiJ
+0470: 31 63 6d 34 36 61 57 4a 74 4f 6e 42 68 63 6d 46 1cm46aWJtOnBhcmF
+0480: 74 63 7a 70 76 59 58 56 30 61 44 70 6e 63 6d 46 tczpvYXV0aDpncmF
+0490: 75 64 43 31 30 65 58 42 6c 4f 6d 46 77 61 57 74 udC10eXBlOmFwaWt
+04a0: 6c 65 53 49 73 49 6e 4e 6a 62 33 42 6c 49 6a 6f leSIsInNjb3BlIjo
+04b0: 69 61 57 4a 74 49 47 39 77 5a 57 35 70 5a 43 49 iaWJtIG9wZW5pZCI
+04c0: 73 49 6d 4e 73 61 57 56 75 64 46 39 70 5a 43 49 sImNsaWVudF9pZCI
+04d0: 36 49 6d 52 6c 5a 6d 46 31 62 48 51 69 4c 43 4a 6ImRlZmF1bHQiLCJ
+04e0: 68 59 33 49 69 4f 6a 45 73 49 6d 46 74 63 69 49 hY3IiOjEsImFtciI
+04f0: 36 57 79 4a 77 64 32 51 69 58 58 30 2e 45 71 4e 6WyJwd2QiXX0.EqN
+0500: 6d 6c 67 4b 6e 5a 41 74 62 64 54 58 2d 59 64 39 mlgKnZAtbdTX-Yd9
+0510: 33 65 36 50 74 4e 76 6c 6e 79 57 75 54 31 73 58 3e6PtNvlnyWuT1sX
+0520: 73 41 42 58 58 4a 7a 41 4b 4e 45 53 68 53 6f 38 sABXXJzAKNEShSo8
+0530: 7a 31 34 6b 4b 37 6b 5f 50 46 32 36 6f 56 4c 30 z14kK7k_PF26oVL0
+0540: 77 47 55 73 46 45 52 66 41 4c 66 51 42 6d 37 6e wGUsFERfALfQBm7n
+0550: 56 56 70 4f 45 4e 47 4f 39 61 56 6f 4e 72 43 43 VVpOENGO9aVoNrCC
+0560: 64 43 44 4c 32 36 6e 41 51 32 61 63 57 52 54 4f dCDL26nAQ2acWRTO
+0570: 72 48 4a 6c 45 64 74 76 4e 49 6f 38 6f 71 41 6a rHJlEdtvNIo8oqAj
+0580: 33 5f 4a 56 69 69 54 6d 74 79 6f 4f 74 55 64 4e 3_JViiTmtyoOtUdN
+0590: 70 44 4b 63 56 79 43 50 49 55 61 31 5a 46 52 6b pDKcVyCPIUa1ZFRk
+05a0: 52 6a 6f 45 67 7a 33 41 48 37 74 5a 44 37 36 70 RjoEgz3AH7tZD76p
+05b0: 5f 53 43 77 65 53 76 35 59 33 55 59 48 31 75 75 _SCweSv5Y3UYH1uu
+05c0: 50 6a 79 39 59 59 52 38 50 56 58 35 35 67 31 6a Pjy9YYR8PVX55g1j
+05d0: 73 66 2d 7a 44 71 62 58 66 51 48 45 61 65 72 77 sf-zDqbXfQHEaerw
+05e0: 6c 69 59 34 64 30 53 53 42 77 47 36 51 65 76 6d liY4d0SSBwG6Qevm
+05f0: 45 4d 62 67 76 75 78 41 30 32 78 43 46 4d 70 46 EMbgvuxA02xCFMpF
+0600: 66 54 4b 53 41 32 75 4b 35 62 38 57 61 4e 47 6c fTKSA2uK5b8WaNGl
+0610: 57 31 35 4e 50 50 31 79 34 51 32 61 74 67 6e 43 W15NPP1y4Q2atgnC
+0620: 7a 45 49 77 64 51 41 45 30 4d 6a 6f 64 64 49 45 zEIwdQAE0MjoddIE
+0630: 63 4f 45 4e 62 76 6f 33 33 4b 42 54 6d 61 32 77 cOENbvo33KBTma2w
+0640: 70 4f 58 61 41 45 78 73 65 5f 32 36 57 41 65 75 pOXaAExse_26WAeu
+0650: 41 66 77 0d 0a 52 65 71 75 65 73 74 2d 49 44 3a Afw..Request-ID:
+0660: 20 33 35 63 64 34 31 30 66 2d 35 30 39 38 2d 34  35cd410f-5098-4
+0670: 39 30 37 2d 39 61 35 66 2d 30 63 63 61 66 32 62 907-9a5f-0ccaf2b
+0680: 30 35 39 62 37 0d 0a 43 6f 6e 74 65 6e 74 2d 54 059b7..Content-T
+0690: 79 70 65 3a 20 6d 75 6c 74 69 70 61 72 74 2f 66 ype: multipart/f
+06a0: 6f 72 6d 2d 64 61 74 61 3b 20 62 6f 75 6e 64 61 orm-data; bounda
+06b0: 72 79 3d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d ry=-------------
+06c0: 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 6a 54 52 33 4d -----------jTR3M
+06d0: 33 53 75 6c 72 32 54 31 67 79 62 30 6c 77 78 64 3Sulr2T1gyb0lwxd
+06e0: 62 0d 0a 0d 0a                                  b....
+=> Send data, 1353 bytes (0x549)
+0000: 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d ----------------
+0010: 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 6a 54 52 33 4d 33 ----------jTR3M3
+0020: 53 75 6c 72 32 54 31 67 79 62 30 6c 77 78 64 62 Sulr2T1gyb0lwxdb
+0030: 0d 0a 43 6f 6e 74 65 6e 74 2d 44 69 73 70 6f 73 ..Content-Dispos
+0040: 69 74 69 6f 6e 3a 20 66 6f 72 6d 2d 64 61 74 61 ition: form-data
+0050: 3b 20 6e 61 6d 65 3d 22 6d 65 73 73 61 67 65 22 ; name="message"
+0060: 0d 0a 0d 0a 65 77 6f 67 49 43 41 67 49 6d 31 6c ....ewogICAgIm1l
+0070: 63 33 4e 68 5a 32 56 66 63 47 46 35 62 47 39 68 c3NhZ2VfcGF5bG9h
+0080: 5a 43 49 36 49 48 73 4b 49 43 41 67 49 43 41 67 ZCI6IHsKICAgICAg
+0090: 49 43 41 69 62 57 56 7a 63 32 46 6e 5a 58 4d 69 ICAibWVzc2FnZXMi
+00a0: 4f 69 42 62 43 69 41 67 49 43 41 67 49 43 41 67 OiBbCiAgICAgICAg
+00b0: 0a 49 43 41 67 49 48 73 4b 49 43 41 67 49 43 41 .ICAgIHsKICAgICA
+00c0: 67 49 43 41 67 49 43 41 67 49 43 41 67 49 43 4a gICAgICAgICAgICJ
+00d0: 6a 62 32 35 30 5a 57 35 30 49 6a 6f 67 49 69 39 jb250ZW50IjogIi9
+00e0: 6c 65 48 42 73 59 57 6c 75 49 46 74 6a 64 58 4e leHBsYWluIFtjdXN
+00f0: 30 62 32 31 6c 63 69 35 77 65 56 30 6f 0a 50 47 0b21lci5weV0o.PG
+0100: 5a 70 62 47 55 74 59 33 56 7a 64 47 39 74 5a 58 ZpbGUtY3VzdG9tZX
+0110: 49 75 63 48 6b 2b 4b 53 49 73 43 69 41 67 49 43 IucHk+KSIsCiAgIC
+0120: 41 67 49 43 41 67 49 43 41 67 49 43 41 67 49 43 AgICAgICAgICAgIC
+0130: 41 69 63 6d 39 73 5a 53 49 36 49 43 4a 56 55 30 Aicm9sZSI6ICJVU0
+0140: 56 53 49 67 6f 67 49 43 41 67 0a 49 43 41 67 49 VSIgogICAg.ICAgI
+0150: 43 41 67 49 43 42 39 43 69 41 67 49 43 41 67 49 CAgICB9CiAgICAgI
+0160: 43 41 67 58 51 6f 67 49 43 41 67 66 51 70 39 0d CAgXQogICAgfQp9.
+0170: 0a 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d .---------------
+0180: 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 6a 54 52 33 4d -----------jTR3M
+0190: 33 53 75 6c 72 32 54 31 67 79 62 30 6c 77 78 64 3Sulr2T1gyb0lwxd
+01a0: 62 0d 0a 43 6f 6e 74 65 6e 74 2d 44 69 73 70 6f b..Content-Dispo
+01b0: 73 69 74 69 6f 6e 3a 20 66 6f 72 6d 2d 64 61 74 sition: form-dat
+01c0: 61 3b 20 6e 61 6d 65 3d 22 66 69 6c 65 73 22 3b a; name="files";
+01d0: 20 66 69 6c 65 6e 61 6d 65 3d 22 31 33 22 0d 0a  filename="13"..
+01e0: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 61 70 Content-Type: ap
+01f0: 70 6c 69 63 61 74 69 6f 6e 2f 6f 63 74 65 74 2d plication/octet-
+0200: 73 74 72 65 61 6d 0d 0a 0d 0a 59 32 78 68 63 33 stream....Y2xhc3
+0210: 4d 67 51 33 56 7a 64 47 39 74 5a 58 49 36 43 69 MgQ3VzdG9tZXI6Ci
+0220: 41 67 49 43 42 6b 5a 57 59 67 58 31 39 70 62 6d AgICBkZWYgX19pbm
+0230: 6c 30 58 31 38 6f 63 32 56 73 5a 69 77 67 62 6d l0X18oc2VsZiwgbm
+0240: 46 74 5a 53 77 67 59 57 64 6c 4b 54 6f 4b 49 43 FtZSwgYWdlKToKIC
+0250: 41 67 49 43 41 67 49 43 42 7a 5a 57 78 6d 4c 6d AgICAgICBzZWxmLm
+0260: 35 68 62 57 55 67 50 53 42 75 59 57 31 6c 43 69 5hbWUgPSBuYW1lCi
+0270: 41 67 49 43 41 67 49 43 41 67 63 32 56 73 5a 69 AgICAgICAgc2VsZi
+0280: 35 68 5a 32 55 67 50 53 42 68 5a 32 55 4b 43 69 5hZ2UgPSBhZ2UKCi
+0290: 41 67 49 43 42 6b 5a 57 59 67 59 32 68 6c 59 32 AgICBkZWYgY2hlY2
+02a0: 74 66 5a 57 78 70 5a 32 6c 69 61 57 78 70 64 48 tfZWxpZ2liaWxpdH
+02b0: 6b 6f 63 32 56 73 5a 69 6b 36 43 69 41 67 49 43 koc2VsZik6CiAgIC
+02c0: 41 67 49 43 41 67 61 57 59 67 63 32 56 73 5a 69 AgICAgaWYgc2VsZi
+02d0: 35 68 5a 32 55 67 50 69 41 78 4f 44 6f 4b 49 43 5hZ2UgPiAxODoKIC
+02e0: 41 67 49 43 41 67 49 43 41 67 49 43 41 67 63 6d AgICAgICAgICAgcm
+02f0: 56 30 64 58 4a 75 49 47 59 69 65 33 4e 6c 62 47 V0dXJuIGYie3NlbG
+0300: 59 75 62 6d 46 74 5a 58 30 67 61 58 4d 67 5a 57 YubmFtZX0gaXMgZW
+0310: 78 70 5a 32 6c 69 62 47 55 75 49 67 6f 67 49 43 xpZ2libGUuIgogIC
+0320: 41 67 49 43 41 67 49 47 56 73 63 32 55 36 43 69 AgICAgIGVsc2U6Ci
+0330: 41 67 49 43 41 67 49 43 41 67 49 43 41 67 49 48 AgICAgICAgICAgIH
+0340: 4a 6c 64 48 56 79 62 69 42 6d 49 6e 74 7a 5a 57 JldHVybiBmIntzZW
+0350: 78 6d 4c 6d 35 68 62 57 56 39 49 47 6c 7a 49 47 xmLm5hbWV9IGlzIG
+0360: 35 76 64 43 42 6c 62 47 6c 6e 61 57 4a 73 5a 53 5vdCBlbGlnaWJsZS
+0370: 34 69 43 67 70 6b 5a 57 59 67 62 57 46 70 62 69 4iCgpkZWYgbWFpbi
+0380: 67 70 4f 67 6f 67 49 43 41 67 49 79 42 4a 62 6e gpOgogICAgIyBJbn
+0390: 42 31 64 44 6f 67 51 33 56 7a 64 47 39 74 5a 58 B1dDogQ3VzdG9tZX
+03a0: 49 6e 63 79 42 75 59 57 31 6c 49 47 46 75 5a 43 IncyBuYW1lIGFuZC
+03b0: 42 68 5a 32 55 4b 49 43 41 67 49 47 35 68 62 57 BhZ2UKICAgIG5hbW
+03c0: 55 67 50 53 42 70 62 6e 42 31 64 43 67 69 52 57 UgPSBpbnB1dCgiRW
+03d0: 35 30 5a 58 49 67 59 33 56 7a 64 47 39 74 5a 58 50ZXIgY3VzdG9tZX
+03e0: 49 6e 63 79 42 75 59 57 31 6c 4f 69 41 69 4b 51 IncyBuYW1lOiAiKQ
+03f0: 6f 67 49 43 41 67 59 57 64 6c 49 44 30 67 61 57 ogICAgYWdlID0gaW
+0400: 35 30 4b 47 6c 75 63 48 56 30 4b 43 4a 46 62 6e 50KGlucHV0KCJFbn
+0410: 52 6c 63 69 42 6a 64 58 4e 30 62 32 31 6c 63 69 RlciBjdXN0b21lci
+0420: 64 7a 49 47 46 6e 5a 54 6f 67 49 69 6b 70 43 67 dzIGFnZTogIikpCg
+0430: 6f 67 49 43 41 67 49 79 42 44 63 6d 56 68 64 47 ogICAgIyBDcmVhdG
+0440: 55 67 51 33 56 7a 64 47 39 74 5a 58 49 67 62 32 UgQ3VzdG9tZXIgb2
+0450: 4a 71 5a 57 4e 30 43 69 41 67 49 43 42 6a 64 58 JqZWN0CiAgICBjdX
+0460: 4e 30 62 32 31 6c 63 69 41 39 49 45 4e 31 63 33 N0b21lciA9IEN1c3
+0470: 52 76 62 57 56 79 4b 47 35 68 62 57 55 73 49 47 RvbWVyKG5hbWUsIG
+0480: 46 6e 5a 53 6b 4b 43 69 41 67 49 43 41 6a 49 45 FnZSkKCiAgICAjIE
+0490: 4e 6f 5a 57 4e 72 49 47 56 73 61 57 64 70 59 6d NoZWNrIGVsaWdpYm
+04a0: 6c 73 61 58 52 35 43 69 41 67 49 43 42 77 63 6d lsaXR5CiAgICBwcm
+04b0: 6c 75 64 43 68 6a 64 58 4e 30 62 32 31 6c 63 69 ludChjdXN0b21lci
+04c0: 35 6a 61 47 56 6a 61 31 39 6c 62 47 6c 6e 61 57 5jaGVja19lbGlnaW
+04d0: 4a 70 62 47 6c 30 65 53 67 70 4b 51 6f 4b 61 57 JpbGl0eSgpKQoKaW
+04e0: 59 67 58 31 39 75 59 57 31 6c 58 31 38 67 50 54 YgX19uYW1lX18gPT
+04f0: 30 67 49 6c 39 66 62 57 46 70 62 6c 39 66 49 6a 0gIl9fbWFpbl9fIj
+0500: 6f 4b 49 43 41 67 49 47 31 68 61 57 34 6f 4b 51 oKICAgIG1haW4oKQ
+0510: 3d 3d 0a 0d 0a 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d ==...-----------
+0520: 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 2d 6a ---------------j
+0530: 54 52 33 4d 33 53 75 6c 72 32 54 31 67 79 62 30 TR3M3Sulr2T1gyb0
+0540: 6c 77 78 64 62 2d 2d 0d 0a                      lwxdb--..
+== Info: upload completely sent off: 1353 bytes
+=> Send SSL data, 5 bytes (0x5)
+0000: 17 03 03 00 1a                                  .....
+=> Send SSL data, 1 bytes (0x1)
+0000: 17                                              .
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 01 dd                                  .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: 16                                              .
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 230 bytes (0xe6)
+0000: 04 00 00 e2 00 00 fd 20 cb ac 36 99 01 00 00 d0 ....... ..6.....
+0010: 22 25 8b db 4b 4b 3b 11 76 8d 92 8f 26 fb 96 f5 "%..KK;.v...&...
+0020: 4d ad 4f 1b ac 16 c0 fb ae 52 4e 5b 6e c0 45 01 M.O......RN[n.E.
+0030: 0a 92 48 eb 88 2e 04 0e e5 f7 cc 66 26 74 e3 9c ..H........f&t..
+0040: e1 55 5e 5f 99 a9 25 7c 66 06 f7 57 89 da df b0 .U^_..%|f..W....
+0050: ef c1 e9 a7 9d 1f 8b aa 67 b3 b1 b9 91 8c 4b 2f ........g.....K/
+0060: ad 1a 88 28 12 43 bf 7a eb 24 b9 76 df 56 e6 da ...(.C.z.$.v.V..
+0070: 61 c9 14 64 17 64 9c 9a 1f 5b c5 4a 1d cc e8 47 a..d.d...[.J...G
+0080: f3 0c 62 9a 2a fe 9a 30 1d 4b b1 df 38 5c 06 90 ..b.*..0.K..8\..
+0090: 94 dc 58 81 c7 fc 32 b7 cd bf 71 45 72 bd 5d 1b ..X...2...qEr.].
+00a0: ad 67 f0 c7 22 da 52 2b d0 49 84 0b c5 b4 10 09 .g..".R+.I......
+00b0: 17 b2 a4 ea d4 f4 2a 36 df 06 db 53 43 fe 3d 48 ......*6...SC.=H
+00c0: c9 3a 12 b9 b5 1a 33 2b f2 16 d4 13 6b 67 55 6b .:....3+....kgUk
+00d0: 4c f3 ce 2b 99 9b 0e a6 d8 b4 9e ee b7 15 49 20 L..+..........I 
+00e0: 00 04 6a 6a 00 00                               ..jj..
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 230 bytes (0xe6)
+0000: 04 00 00 e2 00 00 fd 20 27 f9 28 63 01 01 00 d0 ....... '.(c....
+0010: 22 25 8b db 4b 4b 3b 11 76 8d 92 8f 26 fb 96 f5 "%..KK;.v...&...
+0020: 08 45 69 99 ad 84 67 6d 50 e8 12 01 97 3d cc c2 .Ei...gmP....=..
+0030: 58 a9 76 c2 37 7b 57 3d 62 59 e8 2e 1f 47 b0 1e X.v.7{W=bY...G..
+0040: 8e 43 1c fe 00 ef 80 79 1c db 18 0a 8d 88 3f fa .C.....y......?.
+0050: 6e 63 8d 5c 47 77 af 3f d9 30 2a 02 01 a3 34 07 nc.\Gw.?.0*...4.
+0060: f1 f1 3f de 01 57 ca af 24 7b 93 3d a7 2d e1 ae ..?..W..${.=.-..
+0070: e6 5e 26 05 d7 43 ca af 69 9e 7f 5c 9a c9 b8 ee .^&..C..i..\....
+0080: 13 3b bd 2d 75 1a 91 b4 e7 b5 4c ab 87 69 3e 08 .;.-u.....L..i>.
+0090: 5e 91 1d 1e 8c f4 2b 8a 74 d2 5e 2f a9 2a 65 7a ^.....+.t.^/.*ez
+00a0: fd b1 7c 5e eb 12 89 c4 ae 71 b3 02 39 2c 30 79 ..|^.....q..9,0y
+00b0: e3 e7 7c f7 ed 2b 60 7c 8c de 7b 7d cc e7 9c bd ..|..+`|..{}....
+00c0: 50 b3 6c a2 9d 7f 23 2d 27 5a b1 14 ea 36 1f 6f P.l...#-'Z...6.o
+00d0: 72 dd ac 9c 3d ff 5a de 46 13 69 12 8f 10 2f fd r...=.Z.F.i.../.
+00e0: 00 04 6a 6a 00 00                               ..jj..
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 00 42                                  ....B
+<= Recv SSL data, 1 bytes (0x1)
+0000: 17                                              .
+=> Send SSL data, 5 bytes (0x5)
+0000: 17 03 03 00 1a                                  .....
+=> Send SSL data, 1 bytes (0x1)
+0000: 17                                              .
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 02 59                                  ....Y
+<= Recv SSL data, 1 bytes (0x1)
+0000: 17                                              .
+<= Recv header, 13 bytes (0xd)
+0000: 48 54 54 50 2f 32 20 32 30 30 20 0d 0a          HTTP/2 200 ..
+<= Recv header, 37 bytes (0x25)
+0000: 64 61 74 65 3a 20 4d 6f 6e 2c 20 30 35 20 4d 61 date: Mon, 05 Ma
+0010: 79 20 32 30 32 35 20 32 31 3a 34 39 3a 31 34 20 y 2025 21:49:14 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 32 bytes (0x20)
+0000: 63 6f 6e 74 65 6e 74 2d 74 79 70 65 3a 20 61 70 content-type: ap
+0010: 70 6c 69 63 61 74 69 6f 6e 2f 6a 73 6f 6e 0d 0a plication/json..
+<= Recv header, 22 bytes (0x16)
+0000: 63 6f 6e 74 65 6e 74 2d 6c 65 6e 67 74 68 3a 20 content-length: 
+0010: 33 32 36 39 0d 0a                               3269..
+<= Recv header, 70 bytes (0x46)
+0000: 74 72 61 63 65 70 61 72 65 6e 74 3a 20 30 30 2d traceparent: 00-
+0010: 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 0000000000000000
+0020: 62 61 63 65 62 62 61 38 31 64 64 38 37 38 63 64 bacebba81dd878cd
+0030: 2d 62 61 63 65 62 62 61 38 31 64 64 38 37 38 63 -bacebba81dd878c
+0040: 64 2d 30 31 0d 0a                               d-01..
+<= Recv header, 50 bytes (0x32)
+0000: 74 72 61 63 65 73 74 61 74 65 3a 20 69 6e 3d 62 tracestate: in=b
+0010: 61 63 65 62 62 61 38 31 64 64 38 37 38 63 64 3b acebba81dd878cd;
+0020: 62 61 63 65 62 62 61 38 31 64 64 38 37 38 63 64 bacebba81dd878cd
+0030: 0d 0a                                           ..
+<= Recv header, 31 bytes (0x1f)
+0000: 78 2d 69 6e 73 74 61 6e 61 2d 74 3a 20 62 61 63 x-instana-t: bac
+0010: 65 62 62 61 38 31 64 64 38 37 38 63 64 0d 0a    ebba81dd878cd..
+<= Recv header, 31 bytes (0x1f)
+0000: 78 2d 69 6e 73 74 61 6e 61 2d 73 3a 20 62 61 63 x-instana-s: bac
+0010: 65 62 62 61 38 31 64 64 38 37 38 63 64 0d 0a    ebba81dd878cd..
+<= Recv header, 16 bytes (0x10)
+0000: 78 2d 69 6e 73 74 61 6e 61 2d 6c 3a 20 31 0d 0a x-instana-l: 1..
+<= Recv header, 44 bytes (0x2c)
+0000: 73 65 72 76 65 72 2d 74 69 6d 69 6e 67 3a 20 69 server-timing: i
+0010: 6e 74 69 64 3b 64 65 73 63 3d 62 61 63 65 62 62 ntid;desc=bacebb
+0020: 61 38 31 64 64 38 37 38 63 64 0d 0a             a81dd878cd..
+<= Recv header, 64 bytes (0x40)
+0000: 73 74 72 69 63 74 2d 74 72 61 6e 73 70 6f 72 74 strict-transport
+0010: 2d 73 65 63 75 72 69 74 79 3a 20 6d 61 78 2d 61 -security: max-a
+0020: 67 65 3d 31 35 37 32 34 38 30 30 3b 20 69 6e 63 ge=15724800; inc
+0030: 6c 75 64 65 53 75 62 44 6f 6d 61 69 6e 73 0d 0a ludeSubDomains..
+<= Recv header, 33 bytes (0x21)
+0000: 78 2d 78 73 73 2d 70 72 6f 74 65 63 74 69 6f 6e x-xss-protection
+0010: 3a 20 31 3b 20 6d 6f 64 65 3d 62 6c 6f 63 6b 0d : 1; mode=block.
+0020: 0a                                              .
+<= Recv header, 33 bytes (0x21)
+0000: 78 2d 63 6f 6e 74 65 6e 74 2d 74 79 70 65 2d 6f x-content-type-o
+0010: 70 74 69 6f 6e 73 3a 20 6e 6f 73 6e 69 66 66 0d ptions: nosniff.
+0020: 0a                                              .
+<= Recv header, 26 bytes (0x1a)
+0000: 63 66 2d 63 61 63 68 65 2d 73 74 61 74 75 73 3a cf-cache-status:
+0010: 20 44 59 4e 41 4d 49 43 0d 0a                    DYNAMIC..
+<= Recv header, 306 bytes (0x132)
+0000: 73 65 74 2d 63 6f 6f 6b 69 65 3a 20 5f 5f 63 66 set-cookie: __cf
+0010: 5f 62 6d 3d 4a 72 4d 66 54 62 65 6e 54 75 76 4f _bm=JrMfTbenTuvO
+0020: 4d 75 36 34 43 38 62 75 48 33 6f 47 76 30 31 4f Mu64C8buH3oGv01O
+0030: 59 50 72 79 58 68 43 45 50 74 4c 2e 46 37 67 2d YPryXhCEPtL.F7g-
+0040: 31 37 34 36 34 38 31 37 35 34 2d 31 2e 30 2e 31 1746481754-1.0.1
+0050: 2e 31 2d 43 4b 4e 58 7a 4e 31 6c 33 52 71 2e 53 .1-CKNXzN1l3Rq.S
+0060: 66 78 64 7a 36 4e 75 78 78 6d 6d 41 64 5f 66 4e fxdz6NuxxmmAd_fN
+0070: 33 78 47 46 54 66 36 43 4b 4a 6e 74 61 41 4a 5a 3xGFTf6CKJntaAJZ
+0080: 46 54 31 61 78 65 79 53 74 62 4c 55 45 63 4d 62 FT1axeyStbLUEcMb
+0090: 6a 6b 44 36 49 68 52 6b 7a 6f 42 4d 4e 6f 63 77 jkD6IhRkzoBMNocw
+00a0: 76 78 57 55 30 6e 54 31 4f 45 51 75 74 44 64 45 vxWU0nT1OEQutDdE
+00b0: 4d 44 79 34 6d 2e 2e 30 77 4a 54 6a 71 34 3b 20 MDy4m..0wJTjq4; 
+00c0: 70 61 74 68 3d 2f 3b 20 65 78 70 69 72 65 73 3d path=/; expires=
+00d0: 4d 6f 6e 2c 20 30 35 2d 4d 61 79 2d 32 35 20 32 Mon, 05-May-25 2
+00e0: 32 3a 31 39 3a 31 34 20 47 4d 54 3b 20 64 6f 6d 2:19:14 GMT; dom
+00f0: 61 69 6e 3d 2e 64 61 74 61 70 6c 61 74 66 6f 72 ain=.dataplatfor
+0100: 6d 2e 63 6c 6f 75 64 2e 69 62 6d 2e 63 6f 6d 3b m.cloud.ibm.com;
+0110: 20 48 74 74 70 4f 6e 6c 79 3b 20 53 65 63 75 72  HttpOnly; Secur
+0120: 65 3b 20 53 61 6d 65 53 69 74 65 3d 4e 6f 6e 65 e; SameSite=None
+0130: 0d 0a                                           ..
+<= Recv header, 20 bytes (0x14)
+0000: 73 65 72 76 65 72 3a 20 63 6c 6f 75 64 66 6c 61 server: cloudfla
+0010: 72 65 0d 0a                                     re..
+<= Recv header, 30 bytes (0x1e)
+0000: 63 66 2d 72 61 79 3a 20 39 33 62 33 37 31 33 63 cf-ray: 93b3713c
+0010: 37 61 33 31 64 33 36 64 2d 46 52 41 0d 0a       7a31d36d-FRA..
+<= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 05 6a                                  ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: 17                                              .
+<= Recv data, 1360 bytes (0x550)
+0000: 7b 22 72 65 71 75 65 73 74 5f 69 64 22 3a 22 33 {"request_id":"3
+0010: 35 63 64 34 31 30 66 2d 35 30 39 38 2d 34 39 30 5cd410f-5098-490
+0020: 37 2d 39 61 35 66 2d 30 63 63 61 66 32 62 30 35 7-9a5f-0ccaf2b05
+0030: 39 62 37 22 2c 22 72 65 73 70 6f 6e 73 65 22 3a 9b7","response":
+0040: 7b 22 61 75 67 6d 65 6e 74 65 64 5f 70 72 6f 6d {"augmented_prom
+0050: 70 74 22 3a 22 22 2c 22 67 65 6e 65 72 61 74 65 pt":"","generate
+0060: 64 5f 72 65 73 70 6f 6e 73 65 22 3a 22 22 2c 22 d_response":"","
+0070: 63 72 65 61 74 65 5f 74 73 22 3a 22 32 30 32 35 create_ts":"2025
+0080: 2d 30 35 2d 30 35 54 32 31 3a 34 39 3a 31 34 2e -05-05T21:49:14.
+0090: 32 31 34 35 34 37 22 2c 22 6d 65 73 73 61 67 65 214547","message
+00a0: 22 3a 7b 22 72 6f 6c 65 22 3a 22 41 53 53 49 53 ":{"role":"ASSIS
+00b0: 54 41 4e 54 22 2c 22 63 6f 6e 74 65 6e 74 22 3a TANT","content":
+00c0: 22 54 68 69 73 20 50 79 74 68 6f 6e 20 73 63 72 "This Python scr
+00d0: 69 70 74 20 64 65 66 69 6e 65 73 20 61 20 60 43 ipt defines a `C
+00e0: 75 73 74 6f 6d 65 72 60 20 63 6c 61 73 73 20 61 ustomer` class a
+00f0: 6e 64 20 61 20 60 6d 61 69 6e 60 20 66 75 6e 63 nd a `main` func
+0100: 74 69 6f 6e 2e 20 54 68 65 20 60 43 75 73 74 6f tion. The `Custo
+0110: 6d 65 72 60 20 63 6c 61 73 73 20 68 61 73 20 74 mer` class has t
+0120: 77 6f 20 61 74 74 72 69 62 75 74 65 73 3a 20 60 wo attributes: `
+0130: 6e 61 6d 65 60 20 61 6e 64 20 60 61 67 65 60 2c name` and `age`,
+0140: 20 77 68 69 63 68 20 61 72 65 20 73 65 74 20 69  which are set i
+0150: 6e 20 74 68 65 20 63 6f 6e 73 74 72 75 63 74 6f n the constructo
+0160: 72 20 28 60 5f 5f 69 6e 69 74 5f 5f 60 20 6d 65 r (`__init__` me
+0170: 74 68 6f 64 29 2e 20 54 68 65 20 63 6c 61 73 73 thod). The class
+0180: 20 61 6c 73 6f 20 68 61 73 20 61 20 6d 65 74 68  also has a meth
+0190: 6f 64 20 60 63 68 65 63 6b 5f 65 6c 69 67 69 62 od `check_eligib
+01a0: 69 6c 69 74 79 60 20 74 68 61 74 20 63 68 65 63 ility` that chec
+01b0: 6b 73 20 69 66 20 74 68 65 20 63 75 73 74 6f 6d ks if the custom
+01c0: 65 72 20 69 73 20 65 6c 69 67 69 62 6c 65 20 62 er is eligible b
+01d0: 61 73 65 64 20 6f 6e 20 74 68 65 69 72 20 61 67 ased on their ag
+01e0: 65 20 28 61 73 73 75 6d 69 6e 67 20 65 6c 69 67 e (assuming elig
+01f0: 69 62 69 6c 69 74 79 20 69 73 20 67 72 61 6e 74 ibility is grant
+0200: 65 64 20 74 6f 20 74 68 6f 73 65 20 6f 76 65 72 ed to those over
+0210: 20 31 38 29 2e 5c 6e 5c 6e 54 68 65 20 60 6d 61  18).\n\nThe `ma
+0220: 69 6e 60 20 66 75 6e 63 74 69 6f 6e 20 69 73 20 in` function is 
+0230: 74 68 65 20 65 6e 74 72 79 20 70 6f 69 6e 74 20 the entry point 
+0240: 6f 66 20 74 68 65 20 73 63 72 69 70 74 2e 20 49 of the script. I
+0250: 74 20 70 72 6f 6d 70 74 73 20 74 68 65 20 75 73 t prompts the us
+0260: 65 72 20 74 6f 20 69 6e 70 75 74 20 61 20 63 75 er to input a cu
+0270: 73 74 6f 6d 65 72 27 73 20 6e 61 6d 65 20 61 6e stomer's name an
+0280: 64 20 61 67 65 2c 20 63 72 65 61 74 65 73 20 61 d age, creates a
+0290: 20 60 43 75 73 74 6f 6d 65 72 60 20 6f 62 6a 65  `Customer` obje
+02a0: 63 74 20 77 69 74 68 20 74 68 65 73 65 20 69 6e ct with these in
+02b0: 70 75 74 73 2c 20 61 6e 64 20 74 68 65 6e 20 63 puts, and then c
+02c0: 61 6c 6c 73 20 74 68 65 20 60 63 68 65 63 6b 5f alls the `check_
+02d0: 65 6c 69 67 69 62 69 6c 69 74 79 60 20 6d 65 74 eligibility` met
+02e0: 68 6f 64 20 6f 6e 20 74 68 69 73 20 6f 62 6a 65 hod on this obje
+02f0: 63 74 20 74 6f 20 64 65 74 65 72 6d 69 6e 65 20 ct to determine 
+0300: 69 66 20 74 68 65 20 63 75 73 74 6f 6d 65 72 20 if the customer 
+0310: 69 73 20 65 6c 69 67 69 62 6c 65 2e 20 54 68 65 is eligible. The
+0320: 20 72 65 73 75 6c 74 20 69 73 20 74 68 65 6e 20  result is then 
+0330: 70 72 69 6e 74 65 64 20 74 6f 20 74 68 65 20 63 printed to the c
+0340: 6f 6e 73 6f 6c 65 2e 5c 6e 5c 6e 57 68 65 6e 20 onsole.\n\nWhen 
+0350: 79 6f 75 20 72 75 6e 20 74 68 69 73 20 73 63 72 you run this scr
+0360: 69 70 74 2c 20 69 74 20 77 69 6c 6c 20 61 73 6b ipt, it will ask
+0370: 20 66 6f 72 20 61 20 63 75 73 74 6f 6d 65 72 27  for a customer'
+0380: 73 20 6e 61 6d 65 20 61 6e 64 20 61 67 65 2c 20 s name and age, 
+0390: 61 6e 64 20 74 68 65 6e 20 69 74 20 77 69 6c 6c and then it will
+03a0: 20 74 65 6c 6c 20 79 6f 75 20 77 68 65 74 68 65  tell you whethe
+03b0: 72 20 74 68 61 74 20 63 75 73 74 6f 6d 65 72 20 r that customer 
+03c0: 69 73 20 65 6c 69 67 69 62 6c 65 20 6f 72 20 6e is eligible or n
+03d0: 6f 74 20 62 61 73 65 64 20 6f 6e 20 74 68 65 20 ot based on the 
+03e0: 61 67 65 20 74 68 72 65 73 68 6f 6c 64 20 6f 66 age threshold of
+03f0: 20 31 38 2e 5c 6e 5c 6e 48 65 72 65 27 73 20 61  18.\n\nHere's a
+0400: 20 62 72 65 61 6b 64 6f 77 6e 20 6f 66 20 74 68  breakdown of th
+0410: 65 20 63 6f 64 65 3a 5c 6e 5c 6e 31 2e 20 60 63 e code:\n\n1. `c
+0420: 6c 61 73 73 20 43 75 73 74 6f 6d 65 72 3a 60 20 lass Customer:` 
+0430: 2d 20 44 65 66 69 6e 65 73 20 61 20 6e 65 77 20 - Defines a new 
+0440: 63 6c 61 73 73 20 6e 61 6d 65 64 20 60 43 75 73 class named `Cus
+0450: 74 6f 6d 65 72 60 2e 5c 6e 32 2e 20 60 64 65 66 tomer`.\n2. `def
+0460: 20 5f 5f 69 6e 69 74 5f 5f 28 73 65 6c 66 2c 20  __init__(self, 
+0470: 6e 61 6d 65 2c 20 61 67 65 29 3a 60 20 2d 20 54 name, age):` - T
+0480: 68 65 20 63 6f 6e 73 74 72 75 63 74 6f 72 20 6d he constructor m
+0490: 65 74 68 6f 64 20 74 68 61 74 20 69 6e 69 74 69 ethod that initi
+04a0: 61 6c 69 7a 65 73 20 74 68 65 20 60 43 75 73 74 alizes the `Cust
+04b0: 6f 6d 65 72 60 20 6f 62 6a 65 63 74 20 77 69 74 omer` object wit
+04c0: 68 20 60 6e 61 6d 65 60 20 61 6e 64 20 60 61 67 h `name` and `ag
+04d0: 65 60 20 61 74 74 72 69 62 75 74 65 73 2e 5c 6e e` attributes.\n
+04e0: 33 2e 20 60 73 65 6c 66 2e 6e 61 6d 65 20 3d 20 3. `self.name = 
+04f0: 6e 61 6d 65 60 20 61 6e 64 20 60 73 65 6c 66 2e name` and `self.
+0500: 61 67 65 20 3d 20 61 67 65 60 20 2d 20 41 73 73 age = age` - Ass
+0510: 69 67 6e 20 74 68 65 20 69 6e 70 75 74 20 70 61 ign the input pa
+0520: 72 61 6d 65 74 65 72 73 20 74 6f 20 74 68 65 20 rameters to the 
+0530: 6f 62 6a 65 63 74 27 73 20 61 74 74 72 69 62 75 object's attribu
+0540: 74 65 73 2e 5c 6e 34 2e 20 60 64 65 66 20 63 68 tes.\n4. `def ch
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 05 6a                                  ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: 17                                              .
+<= Recv data, 1369 bytes (0x559)
+0000: 65 63 6b 5f 65 6c 69 67 69 62 69 6c 69 74 79 28 eck_eligibility(
+0010: 73 65 6c 66 29 3a 60 20 2d 20 41 20 6d 65 74 68 self):` - A meth
+0020: 6f 64 20 74 68 61 74 20 63 68 65 63 6b 73 20 69 od that checks i
+0030: 66 20 74 68 65 20 63 75 73 74 6f 6d 65 72 20 69 f the customer i
+0040: 73 20 65 6c 69 67 69 62 6c 65 20 62 61 73 65 64 s eligible based
+0050: 20 6f 6e 20 74 68 65 69 72 20 61 67 65 2e 5c 6e  on their age.\n
+0060: 35 2e 20 60 69 66 20 73 65 6c 66 2e 61 67 65 20 5. `if self.age 
+0070: 3e 20 31 38 3a 60 20 2d 20 43 68 65 63 6b 73 20 > 18:` - Checks 
+0080: 69 66 20 74 68 65 20 63 75 73 74 6f 6d 65 72 27 if the customer'
+0090: 73 20 61 67 65 20 69 73 20 67 72 65 61 74 65 72 s age is greater
+00a0: 20 74 68 61 6e 20 31 38 2e 5c 6e 36 2e 20 60 72  than 18.\n6. `r
+00b0: 65 74 75 72 6e 20 66 5c 22 7b 73 65 6c 66 2e 6e eturn f\"{self.n
+00c0: 61 6d 65 7d 20 69 73 20 65 6c 69 67 69 62 6c 65 ame} is eligible
+00d0: 2e 5c 22 60 20 61 6e 64 20 60 72 65 74 75 72 6e .\"` and `return
+00e0: 20 66 5c 22 7b 73 65 6c 66 2e 6e 61 6d 65 7d 20  f\"{self.name} 
+00f0: 69 73 20 6e 6f 74 20 65 6c 69 67 69 62 6c 65 2e is not eligible.
+0100: 5c 22 60 20 2d 20 52 65 74 75 72 6e 73 20 61 20 \"` - Returns a 
+0110: 73 74 72 69 6e 67 20 69 6e 64 69 63 61 74 69 6e string indicatin
+0120: 67 20 77 68 65 74 68 65 72 20 74 68 65 20 63 75 g whether the cu
+0130: 73 74 6f 6d 65 72 20 69 73 20 65 6c 69 67 69 62 stomer is eligib
+0140: 6c 65 20 6f 72 20 6e 6f 74 2e 5c 6e 37 2e 20 60 le or not.\n7. `
+0150: 64 65 66 20 6d 61 69 6e 28 29 3a 60 20 2d 20 54 def main():` - T
+0160: 68 65 20 6d 61 69 6e 20 66 75 6e 63 74 69 6f 6e he main function
+0170: 20 74 68 61 74 20 6f 72 63 68 65 73 74 72 61 74  that orchestrat
+0180: 65 73 20 74 68 65 20 70 72 6f 67 72 61 6d 27 73 es the program's
+0190: 20 66 6c 6f 77 2e 5c 6e 38 2e 20 60 6e 61 6d 65  flow.\n8. `name
+01a0: 20 3d 20 69 6e 70 75 74 28 5c 22 45 6e 74 65 72  = input(\"Enter
+01b0: 20 63 75 73 74 6f 6d 65 72 27 73 20 6e 61 6d 65  customer's name
+01c0: 3a 20 5c 22 29 60 20 61 6e 64 20 60 61 67 65 20 : \")` and `age 
+01d0: 3d 20 69 6e 74 28 69 6e 70 75 74 28 5c 22 45 6e = int(input(\"En
+01e0: 74 65 72 20 63 75 73 74 6f 6d 65 72 27 73 20 61 ter customer's a
+01f0: 67 65 3a 20 5c 22 29 29 60 20 2d 20 50 72 6f 6d ge: \"))` - Prom
+0200: 70 74 73 20 74 68 65 20 75 73 65 72 20 66 6f 72 pts the user for
+0210: 20 69 6e 70 75 74 20 61 6e 64 20 73 74 6f 72 65  input and store
+0220: 73 20 74 68 65 20 6e 61 6d 65 20 61 73 20 61 20 s the name as a 
+0230: 73 74 72 69 6e 67 20 61 6e 64 20 74 68 65 20 61 string and the a
+0240: 67 65 20 61 73 20 61 6e 20 69 6e 74 65 67 65 72 ge as an integer
+0250: 2e 5c 6e 39 2e 20 60 63 75 73 74 6f 6d 65 72 20 .\n9. `customer 
+0260: 3d 20 43 75 73 74 6f 6d 65 72 28 6e 61 6d 65 2c = Customer(name,
+0270: 20 61 67 65 29 60 20 2d 20 43 72 65 61 74 65 73  age)` - Creates
+0280: 20 61 20 6e 65 77 20 60 43 75 73 74 6f 6d 65 72  a new `Customer
+0290: 60 20 6f 62 6a 65 63 74 20 77 69 74 68 20 74 68 ` object with th
+02a0: 65 20 70 72 6f 76 69 64 65 64 20 6e 61 6d 65 20 e provided name 
+02b0: 61 6e 64 20 61 67 65 2e 5c 6e 31 30 2e 20 60 70 and age.\n10. `p
+02c0: 72 69 6e 74 28 63 75 73 74 6f 6d 65 72 2e 63 68 rint(customer.ch
+02d0: 65 63 6b 5f 65 6c 69 67 69 62 69 6c 69 74 79 28 eck_eligibility(
+02e0: 29 29 60 20 2d 20 43 61 6c 6c 73 20 74 68 65 20 ))` - Calls the 
+02f0: 60 63 68 65 63 6b 5f 65 6c 69 67 69 62 69 6c 69 `check_eligibili
+0300: 74 79 60 20 6d 65 74 68 6f 64 20 6f 6e 20 74 68 ty` method on th
+0310: 65 20 60 63 75 73 74 6f 6d 65 72 60 20 6f 62 6a e `customer` obj
+0320: 65 63 74 20 61 6e 64 20 70 72 69 6e 74 73 20 74 ect and prints t
+0330: 68 65 20 72 65 73 75 6c 74 2e 5c 6e 31 31 2e 20 he result.\n11. 
+0340: 60 69 66 20 5f 5f 6e 61 6d 65 5f 5f 20 3d 3d 20 `if __name__ == 
+0350: 5c 22 5f 5f 6d 61 69 6e 5f 5f 5c 22 3a 60 20 2d \"__main__\":` -
+0360: 20 45 6e 73 75 72 65 73 20 74 68 61 74 20 74 68  Ensures that th
+0370: 65 20 60 6d 61 69 6e 60 20 66 75 6e 63 74 69 6f e `main` functio
+0380: 6e 20 69 73 20 63 61 6c 6c 65 64 20 6f 6e 6c 79 n is called only
+0390: 20 77 68 65 6e 20 74 68 65 20 73 63 72 69 70 74  when the script
+03a0: 20 69 73 20 72 75 6e 20 64 69 72 65 63 74 6c 79  is run directly
+03b0: 2c 20 6e 6f 74 20 77 68 65 6e 20 69 74 27 73 20 , not when it's 
+03c0: 69 6d 70 6f 72 74 65 64 20 61 73 20 61 20 6d 6f imported as a mo
+03d0: 64 75 6c 65 2e 5c 6e 5c 6e 54 68 69 73 20 73 63 dule.\n\nThis sc
+03e0: 72 69 70 74 20 64 65 6d 6f 6e 73 74 72 61 74 65 ript demonstrate
+03f0: 73 20 62 61 73 69 63 20 6f 62 6a 65 63 74 2d 6f s basic object-o
+0400: 72 69 65 6e 74 65 64 20 70 72 6f 67 72 61 6d 6d riented programm
+0410: 69 6e 67 20 63 6f 6e 63 65 70 74 73 20 69 6e 20 ing concepts in 
+0420: 50 79 74 68 6f 6e 2c 20 69 6e 63 6c 75 64 69 6e Python, includin
+0430: 67 20 63 6c 61 73 73 20 64 65 66 69 6e 69 74 69 g class definiti
+0440: 6f 6e 2c 20 6f 62 6a 65 63 74 20 63 72 65 61 74 on, object creat
+0450: 69 6f 6e 2c 20 61 6e 64 20 6d 65 74 68 6f 64 20 ion, and method 
+0460: 69 6e 76 6f 63 61 74 69 6f 6e 2e 22 2c 22 74 79 invocation.","ty
+0470: 70 65 22 3a 22 45 58 50 4c 41 4e 41 54 49 4f 4e pe":"EXPLANATION
+0480: 22 2c 22 63 6f 6e 74 65 78 74 22 3a 22 60 60 60 ","context":"```
+0490: 70 79 74 68 6f 6e 5c 6e 2f 2f 63 75 73 74 6f 6d python\n//custom
+04a0: 65 72 2e 70 79 5c 6e 63 6c 61 73 73 20 43 75 73 er.py\nclass Cus
+04b0: 74 6f 6d 65 72 3a 5c 6e 20 20 20 20 64 65 66 20 tomer:\n    def 
+04c0: 5f 5f 69 6e 69 74 5f 5f 28 73 65 6c 66 2c 20 6e __init__(self, n
+04d0: 61 6d 65 2c 20 61 67 65 29 3a 5c 6e 20 20 20 20 ame, age):\n    
+04e0: 20 20 20 20 73 65 6c 66 2e 6e 61 6d 65 20 3d 20     self.name = 
+04f0: 6e 61 6d 65 5c 6e 20 20 20 20 20 20 20 20 73 65 name\n        se
+0500: 6c 66 2e 61 67 65 20 3d 20 61 67 65 5c 6e 5c 6e lf.age = age\n\n
+0510: 20 20 20 20 64 65 66 20 63 68 65 63 6b 5f 65 6c     def check_el
+0520: 69 67 69 62 69 6c 69 74 79 28 73 65 6c 66 29 3a igibility(self):
+0530: 5c 6e 20 20 20 20 20 20 20 20 69 66 20 73 65 6c \n        if sel
+0540: 66 2e 61 67 65 20 3e 20 31 38 3a 5c 6e 20 20 20 f.age > 18:\n   
+0550: 20 20 20 20 20 20 20 20 20                               
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 02 2d                                  ....-
+<= Recv SSL data, 1 bytes (0x1)
+0000: 17                                              .
+<= Recv data, 540 bytes (0x21c)
+0000: 72 65 74 75 72 6e 20 66 5c 22 7b 73 65 6c 66 2e return f\"{self.
+0010: 6e 61 6d 65 7d 20 69 73 20 65 6c 69 67 69 62 6c name} is eligibl
+0020: 65 2e 5c 22 5c 6e 20 20 20 20 20 20 20 20 65 6c e.\"\n        el
+0030: 73 65 3a 5c 6e 20 20 20 20 20 20 20 20 20 20 20 se:\n           
+0040: 20 72 65 74 75 72 6e 20 66 5c 22 7b 73 65 6c 66  return f\"{self
+0050: 2e 6e 61 6d 65 7d 20 69 73 20 6e 6f 74 20 65 6c .name} is not el
+0060: 69 67 69 62 6c 65 2e 5c 22 5c 6e 5c 6e 64 65 66 igible.\"\n\ndef
+0070: 20 6d 61 69 6e 28 29 3a 5c 6e 20 20 20 20 23 20  main():\n    # 
+0080: 49 6e 70 75 74 3a 20 43 75 73 74 6f 6d 65 72 27 Input: Customer'
+0090: 73 20 6e 61 6d 65 20 61 6e 64 20 61 67 65 5c 6e s name and age\n
+00a0: 20 20 20 20 6e 61 6d 65 20 3d 20 69 6e 70 75 74     name = input
+00b0: 28 5c 22 45 6e 74 65 72 20 63 75 73 74 6f 6d 65 (\"Enter custome
+00c0: 72 27 73 20 6e 61 6d 65 3a 20 5c 22 29 5c 6e 20 r's name: \")\n 
+00d0: 20 20 20 61 67 65 20 3d 20 69 6e 74 28 69 6e 70    age = int(inp
+00e0: 75 74 28 5c 22 45 6e 74 65 72 20 63 75 73 74 6f ut(\"Enter custo
+00f0: 6d 65 72 27 73 20 61 67 65 3a 20 5c 22 29 29 5c mer's age: \"))\
+0100: 6e 5c 6e 20 20 20 20 23 20 43 72 65 61 74 65 20 n\n    # Create 
+0110: 43 75 73 74 6f 6d 65 72 20 6f 62 6a 65 63 74 5c Customer object\
+0120: 6e 20 20 20 20 63 75 73 74 6f 6d 65 72 20 3d 20 n    customer = 
+0130: 43 75 73 74 6f 6d 65 72 28 6e 61 6d 65 2c 20 61 Customer(name, a
+0140: 67 65 29 5c 6e 5c 6e 20 20 20 20 23 20 43 68 65 ge)\n\n    # Che
+0150: 63 6b 20 65 6c 69 67 69 62 69 6c 69 74 79 5c 6e ck eligibility\n
+0160: 20 20 20 20 70 72 69 6e 74 28 63 75 73 74 6f 6d     print(custom
+0170: 65 72 2e 63 68 65 63 6b 5f 65 6c 69 67 69 62 69 er.check_eligibi
+0180: 6c 69 74 79 28 29 29 5c 6e 5c 6e 69 66 20 5f 5f lity())\n\nif __
+0190: 6e 61 6d 65 5f 5f 20 3d 3d 20 5c 22 5f 5f 6d 61 name__ == \"__ma
+01a0: 69 6e 5f 5f 5c 22 3a 5c 6e 20 20 20 20 6d 61 69 in__\":\n    mai
+01b0: 6e 28 29 5c 6e 60 60 60 22 2c 22 75 73 65 5f 66 n()\n```","use_f
+01c0: 6f 72 5f 63 6f 6e 74 65 78 74 22 3a 74 72 75 65 or_context":true
+01d0: 7d 2c 22 73 69 6d 69 6c 61 72 69 74 79 5f 6d 61 },"similarity_ma
+01e0: 74 63 68 65 73 22 3a 5b 5d 2c 22 6d 6f 64 65 6c tches":[],"model
+01f0: 22 3a 22 69 62 6d 2f 67 72 61 6e 69 74 65 2d 33 ":"ibm/granite-3
+0200: 2d 38 62 2d 69 6e 73 74 72 75 63 74 22 7d 2c 22 -8b-instruct"},"
+0210: 65 72 72 6f 72 22 3a 6e 75 6c 6c 7d             error":null}
+<= Recv SSL data, 5 bytes (0x5)
+0000: 17 03 03 00 1a                                  .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: 17                                              .
+<= Recv data, 0 bytes (0x0)
+== Info: Connection #0 to host api.dataplatform.cloud.ibm.com left intact
